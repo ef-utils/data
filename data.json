@@ -1,0 +1,4217 @@
+{
+	"version": "0.0.1",
+	"units": {
+		"human": [
+			{
+				"name": "Infantry",
+				"id": 1,
+				"tribe": "human",
+				"image": "0001",
+				"stars": 1,
+				"type": "physical",
+				"fullArt": "2",
+				"sex": "male",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 16,
+					"baseHP": 84,
+					"basePhysicalDefense": 3.6,
+					"baseMagicalDefense": 3.15,
+					"attackSpeed": 60,
+					"attackRange": 25,
+					"movementSpeed": 11.2,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [1, 2],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Melee Physical Attack",
+						"Skill Attack: Strike enemies with 1.5 times enhanced attack power and stun enemies for a certain amount of time"
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own HP Increased: 33%"
+					},
+					{
+						"level": 50,
+						"skill": "Own Defense Power Increased: 20%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Movement Speed Increased: 1%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Attack Power Increased: 16%"
+					},
+					{
+						"level": 300,
+						"skill": "Own HP Increased: 33%"
+					},
+					{
+						"level": 500,
+						"skill": "Own HP Increased: 33%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Defense Power Increased: 20%"
+					},
+					{
+						"level": 900,
+						"skill": "Own HP Increased: 33%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own HP Increased: 100%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Senior Infantry",
+				"id": 2,
+				"tribe": "human",
+				"image": "0002",
+				"stars": 2,
+				"type": "physical",
+				"fullArt": "2",
+				"sex": "male",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 24,
+					"baseHP": 132,
+					"basePhysicalDefense": 6,
+					"baseMagicalDefense": 5.25,
+					"attackSpeed": 60,
+					"attackRange": 25,
+					"movementSpeed": 11.2,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [1, 2],
+					"pet": 1,
+					"battle": [
+						"Normal Attack: Melee Physical Attack",
+						"Skill Attack: Strike enemies with 2 times enhanced attack power and stun enemies for a certain amount of time",
+						"Never gets knocked back. "
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own HP Increased: 40%"
+					},
+					{
+						"level": 50,
+						"skill": "Own Defense Power Increased: 24%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Movement Speed Increased: 2%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Attack Power Increased: 20%"
+					},
+					{
+						"level": 300,
+						"skill": "Own HP Increased: 40%"
+					},
+					{
+						"level": 500,
+						"skill": "Own HP Increased: 40%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Defense Power Increased: 24%"
+					},
+					{
+						"level": 900,
+						"skill": "Own HP Increased: 40%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own HP Increased: 200%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Defense Power Increased: 200%"
+					},
+					{
+						"level": 1300,
+						"skill": "Own HP Increased: 300%"
+					},
+					{
+						"level": 1400,
+						"skill": "Own Defense Power Increased: 400%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribue's HP Increased: 2a%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Heavy Infantry",
+				"id": 3,
+				"tribe": "human",
+				"image": "0003",
+				"stars": 2,
+				"type": "physical",
+				"fullArt": "4",
+				"sex": "male",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 10,
+					"baseHP": 140.4,
+					"basePhysicalDefense": 9,
+					"baseMagicalDefense": 7.9,
+					"attackSpeed": 60,
+					"attackRange": 30,
+					"movementSpeed": 11.2,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [3, 4],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Melee Physical Attack",
+						"Skill Attack: Strke enemies and create shield for a certain amount of time (defend 99% of physical and magic damages)"
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own Defense Power Increased: 22%"
+					},
+					{
+						"level": 50,
+						"skill": "Gold Gain Increase during the battle: 21%"
+					},
+					{
+						"level": 100,
+						"skill": "Own HP Increased: 36%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Defense Power Increased: 22%"
+					},
+					{
+						"level": 300,
+						"skill": "Quest Gold Increased: 21%"
+					},
+					{
+						"level": 500,
+						"skill": "Melee unit's Defense Power Increased: 5%"
+					},
+					{
+						"level": 700,
+						"skill": "A chance to block melee attack increased: 2%"
+					},
+					{
+						"level": 900,
+						"skill": "Own HP Increased: 36%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Defense Power Increased: 100%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own HP Increased: 200%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Senior Heavy Infantry",
+				"id": 4,
+				"tribe": "human",
+				"image": "0004",
+				"stars": 3,
+				"type": "physical",
+				"fullArt": "4",
+				"sex": "male",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 14,
+					"baseHP": 202.8,
+					"basePhysicalDefense": 16.2,
+					"baseMagicalDefense": 14.22,
+					"attackSpeed": 60,
+					"attackRange": 30,
+					"movementSpeed": 11.2,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [3, 4],
+					"pet": 2,
+					"battle": [
+						"Normal Attack: Melee Physical Attack",
+						"Skill Attack: Strike enemies and create shield for a certain amount of time (defend 99% of physical and magic damages)",
+						"Never gets knocked back. "
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own Defense Power Increased: 26%"
+					},
+					{
+						"level": 50,
+						"skill": "Gold Gain Increase during the battle: 23%"
+					},
+					{
+						"level": 100,
+						"skill": "Own HP Increased: 43%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Defense Power Increased: 26%"
+					},
+					{
+						"level": 300,
+						"skill": "Quest Gold Increased: 23%"
+					},
+					{
+						"level": 500,
+						"skill": "Melee unit's Defense Power Increased: 10%"
+					},
+					{
+						"level": 700,
+						"skill": "A chance to block melee attack increased: 4%"
+					},
+					{
+						"level": 900,
+						"skill": "Own HP Increased: 43%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Defense Power Increased: 200%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own HP Increased: 300%"
+					},
+					{
+						"level": 1300,
+						"skill": "Melee units' Defense Power Increased: 200%"
+					},
+					{
+						"level": 1400,
+						"skill": "Own HP Increased: 500%"
+					},
+					{
+						"level": 1500,
+						"skill": "Own HP Increased: 3a%"
+					},
+					{
+						"level": 1600,
+						"skill": "Melee units' Defense Power Increased: 2a%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Fire Bird",
+				"id": 5,
+				"tribe": "human",
+				"image": "0005",
+				"stars": 2,
+				"type": "magical",
+				"fullArt": "6",
+				"sex": "neutral",
+				"airAttack": true,
+				"cloakingDetection": true,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 16.5,
+					"baseHP": 48,
+					"basePhysicalDefense": 1.8,
+					"baseMagicalDefense": 2.2,
+					"attackSpeed": 65,
+					"attackRange": 180,
+					"movementSpeed": 12.0,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [5, 6],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Ranged Magical Attack",
+						"Skill Attack: Strike enemies with 2.5 times enhanced attack power and stun enemies for a certain amount of time",
+						"Never gets blown away. "
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own Attack Power Increased: 18%"
+					},
+					{
+						"level": 50,
+						"skill": "Quest Gold Increased: 21%"
+					},
+					{
+						"level": 100,
+						"skill": "Own HP Increased: 36%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Attack Power Increased: 18%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Attack Distance Increased: 2%"
+					},
+					{
+						"level": 500,
+						"skill": "A chance to avoid ranged attack increased: 3%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Critical Strike Damage Increased: 55%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Critical Strike Damage Increased: 55%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Critical Strike Damage Increased: 50%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Critical Strike Rate Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "Own Attack Power Increased: 100%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Senior Fire Bird",
+				"id": 6,
+				"tribe": "human",
+				"image": "0006",
+				"stars": 4,
+				"type": "magical",
+				"fullArt": "6",
+				"sex": "neutral",
+				"airAttack": true,
+				"cloakingDetection": true,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 27.5,
+					"baseHP": 88,
+					"basePhysicalDefense": 3.6,
+					"baseMagicalDefense": 4.4,
+					"attackSpeed": 65,
+					"attackRange": 180,
+					"movementSpeed": 12.0,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [5, 6],
+					"pet": 3,
+					"battle": [
+						"Normal Attack: Attacks only the enemies that can operate range air attack. (Disregards the skill that makes air units see oneself, among the skills of close units)",
+						"Skill Attack: Strike enemies with 3.5 times enhanced attack power and stun enemies for a certain amount of time",
+						"Never gets blown away. ",
+						"Never gets knocked back. "
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 50,
+						"skill": "Quest Gold Increased: 24%"
+					},
+					{
+						"level": 100,
+						"skill": "Own HP Increased: 46%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Attack Distance Increased: 5%"
+					},
+					{
+						"level": 500,
+						"skill": "A chance to avoid ranged attack increased: 6%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Critical Strike Damage Increased: 100%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Critical Strike Rate Increased: 3%"
+					},
+					{
+						"level": 1300,
+						"skill": "Own Attack Power Increased: 200%"
+					},
+					{
+						"level": 1400,
+						"skill": "Own Critical Strike Damage Increased: 400%"
+					},
+					{
+						"level": 1500,
+						"skill": "Own Attack Power Increased: 1a%"
+					},
+					{
+						"level": 1600,
+						"skill": "Ranged units' Attack Power Increased: 1.5a%"
+					},
+					{
+						"level": 1700,
+						"skill": "Ranged units' Critical Strike Damage Increased: 3a%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Musketeer",
+				"id": 7,
+				"tribe": "human",
+				"image": "0007",
+				"stars": 3,
+				"type": "physical",
+				"fullArt": "8",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": true,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 15,
+					"baseHP": 95,
+					"basePhysicalDefense": 1.6,
+					"baseMagicalDefense": 1.6,
+					"attackSpeed": 50,
+					"attackRange": 260,
+					"movementSpeed": 8.55,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [7, 8],
+					"pet": null,
+					"battle": [
+						"Normal Attack: As a ranged physical attack, stun enemies for a certain amount of time with a low possibility",
+						"Skill Attack: Using a bullet which has 2.5 time stronger attack power than the basic attack, attack enemies twice and stun them for a certain amount of time"
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own HP Increased: 36%"
+					},
+					{
+						"level": 50,
+						"skill": "Own Attack Power Increased: 18%"
+					},
+					{
+						"level": 100,
+						"skill": "Quest Gold Increased: 21%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Defense Power Increased: 22%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Critical Strike Rate Increased: 2%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Moving Speed Increased: 2%"
+					},
+					{
+						"level": 700,
+						"skill": "A chance to avoid ranged attack increased: 3%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Attack Power Increased: 18%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Attack Power Increased: 100%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Critical Strike Damage Increased: 50%"
+					},
+					{
+						"level": 1300,
+						"skill": "Ranged units' Attack Power Increased: 20%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Senior Musketeer",
+				"id": 8,
+				"tribe": "human",
+				"image": "0008",
+				"stars": 4,
+				"type": "physical",
+				"fullArt": "8",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": true,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 30,
+					"baseHP": 170,
+					"basePhysicalDefense": 3.2,
+					"baseMagicalDefense": 3.2,
+					"attackSpeed": 50,
+					"attackRange": 260,
+					"movementSpeed": 8.55,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [7, 8],
+					"pet": 4,
+					"battle": [
+						"Normal Attack: As a ranged physical attack, stun enemies for a certain amount of time with a low possibility",
+						"Skill Attack: Using a bullet which has 3.5 time stronger attack power than the basic attack, attack enemies twice and stun them for a certain amount of time",
+						"Never gets knocked back. "
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own HP Increased: 46%"
+					},
+					{
+						"level": 50,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 100,
+						"skill": "Quest Gold Increased: 24%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Defense Power Increased: 28%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Critical Strike Rate Increased: 3%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Moving Speed Increased: 5%"
+					},
+					{
+						"level": 700,
+						"skill": "A chance to avoid ranged attack increased: 6%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Attack Power Increased: 200%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Critical Strike Damage Increased: 100%"
+					},
+					{
+						"level": 1300,
+						"skill": "Ranged units' Attack Power Increased: 50%"
+					},
+					{
+						"level": 1400,
+						"skill": "Ranged units' Critical Strike Damage Increased: 300%"
+					},
+					{
+						"level": 1500,
+						"skill": "Ranged units' Attack Power Increased: 400%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 1%"
+					},
+					{
+						"level": 1700,
+						"skill": "Own's(Own) Tribe's Attack Power Increased: 2.5a%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Hammer Knight",
+				"id": 9,
+				"tribe": "human",
+				"image": "0009",
+				"stars": 3,
+				"type": "magical",
+				"fullArt": "10",
+				"sex": "male",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 33,
+					"baseHP": 156,
+					"basePhysicalDefense": 3.6,
+					"baseMagicalDefense": 1.8,
+					"attackSpeed": 60,
+					"attackRange": 35,
+					"movementSpeed": 10.7,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [9, 10],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Melee Magical Attack",
+						"Skill Attack: Strike the target with 1.5 times damages and stun the target for a short time. Nearby enemies also take splash damage with a chance to stun. "
+					],
+					"specialAbility": [
+						"When being attacked, cast a defensive shield immune to physical attacks randomly. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own Attack Power Increased: 20%"
+					},
+					{
+						"level": 50,
+						"skill": "Gold Gain Increased during the battle: 22%"
+					},
+					{
+						"level": 100,
+						"skill": "Own HP Increased Increased: 40%"
+					},
+					{
+						"level": 200,
+						"skill": "Melee units' Attack Power Increased: 2%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Attack Power Increased: 20%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Critical Strike Rate Increased: 2%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Critical Strike Damage Increased: 60%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Defense Power Increased: 24%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own HP Increased: 100%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Defense Power Increased: 100%"
+					},
+					{
+						"level": 1300,
+						"skill": "Melee units' Attack Power Increased: 20%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Senior Hammer Knight",
+				"id": 10,
+				"tribe": "human",
+				"image": "0010",
+				"stars": 4,
+				"type": "magical",
+				"fullArt": "10",
+				"sex": "male",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 44,
+					"baseHP": 228,
+					"basePhysicalDefense": 7.2,
+					"baseMagicalDefense": 3.6,
+					"attackSpeed": 60,
+					"attackRange": 35,
+					"movementSpeed": 10.7,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [9, 10],
+					"pet": 5,
+					"battle": [
+						"Normal Attack: Melee Magical Attack",
+						"Skill Attack: Strike the target with double damage and stun the target for a certain amount of time. At the same time, splash damage approaching enemies and stun them on certain possibilities. "
+					],
+					"specialAbility": [
+						"When being attacked, cast a defense shield immune to physical attacks randomly. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own Attack Power Increased: %23"
+					},
+					{
+						"level": 50,
+						"skill": "Gold Gain Increased during the battle: 24%"
+					},
+					{
+						"level": 100,
+						"skill": "Own HP Increased: 46%"
+					},
+					{
+						"level": 200,
+						"skill": "Melee units' Attack Power Increased: 3%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Critical Strike Rate Increased: 3%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Defense Power Increased: 28%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own HP Increased: 300%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Defense Power Increased: 200%"
+					},
+					{
+						"level": 1300,
+						"skill": "Melee units' Attack Power Increased: 50%"
+					},
+					{
+						"level": 1400,
+						"skill": "Melee units' Attack Power Increased: 300%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Cavalry Knight",
+				"id": 11,
+				"tribe": "human",
+				"image": "0011",
+				"stars": 4,
+				"type": "physical",
+				"fullArt": "12",
+				"sex": "male",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 30.1,
+					"baseHP": 248,
+					"basePhysicalDefense": 5,
+					"baseMagicalDefense": 3,
+					"attackSpeed": 60,
+					"attackRange": 35,
+					"movementSpeed": 13.91,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [11, 12],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Melee Physical Attack",
+						"Skill Attack: Strike the target with 1.5 times damage, splash damage the approaching enemies"
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "None (only evolved units can heave tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Quest Gold Increased: 23%"
+					},
+					{
+						"level": 50,
+						"skill": "Own Critical Strike Rate Increased: 3%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Attack Power Increased: 21%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Defense Power Increased: 26%"
+					},
+					{
+						"level": 500,
+						"skill": "Melee units' Attack Power Increased: 3%"
+					},
+					{
+						"level": 700,
+						"skill": "Own HP Increased: 43%"
+					},
+					{
+						"level": 900,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 10%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Attack Power Increased: 100%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own HP Increased Increased: 200%"
+					},
+					{
+						"level": 1300,
+						"skill": "Melee units' Attack Power Increased: 50%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 50%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Senior Cavalry Knight",
+				"id": 12,
+				"tribe": "human",
+				"image": "0012",
+				"stars": 5,
+				"type": "physical",
+				"fullArt": "12",
+				"sex": "male",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 47.3,
+					"baseHP": 392,
+					"basePhysicalDefense": 8.75,
+					"baseMagicalDefense": 5.25,
+					"attackSpeed": 60,
+					"attackRange": 35,
+					"movementSpeed": 13.91,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [11, 12],
+					"pet": 6,
+					"battle": [
+						"Normal Attack: Melee Physical Attack",
+						"Skill Attack: Strike the target with double damage, splash damage approaching enemies",
+						"Never gets knocked back. "
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Quest Gold Increased: 26%"
+					},
+					{
+						"level": 50,
+						"skill": "Own Critical Strike Rate Increased: 4%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Attack Power Increased: 26%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Defense Power Increased: 32%"
+					},
+					{
+						"level": 500,
+						"skill": "Melee units' Attack Power Increased: 4%"
+					},
+					{
+						"level": 700,
+						"skill": "Own HP Increased: 53%"
+					},
+					{
+						"level": 900,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 20%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Attack Power Increased: 200%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own HP Increased: 300%"
+					},
+					{
+						"level": 1300,
+						"skill": "Melee units' Attack Power Increased: 100%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Critical Stirke Damage Increased: 100%"
+					},
+					{
+						"level": 1500,
+						"skill": "Melee units' Critical Strike Damage Increased: 1a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 3a%"
+					},
+					{
+						"level": 1700,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 2%"
+					},
+					{
+						"level": 1800,
+						"skill": "Melee units' Critical Strike Damage Increased: 4.5a%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Golem",
+				"id": 13,
+				"tribe": "human",
+				"image": "0013",
+				"stars": 5,
+				"type": "physical",
+				"fullArt": "14",
+				"sex": "neutral",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 40,
+					"baseHP": 483,
+					"basePhysicalDefense": 13.5,
+					"baseMagicalDefense": 7.2,
+					"attackSpeed": 65,
+					"attackRange": 40,
+					"movementSpeed": 7.76,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [13, 14, 246],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Splash damage enemies that are close to the target, the target will be 100% stunned, surrounding units will be randomly stunned",
+						"Skill Attack: Cast an immune to physical attacks shield, stun the target with 100% chance while dealing double damage. Surrounding enemies will be randomly stunned",
+						"Never gets stunned. "
+					],
+					"specialAbility": [
+						"Large Unit: Reduced impact from blow and knock-back attacks and short duration for freeze/ensnare. ",
+						"While being attacked, a shield defending 99% of physical and magical attack is casted on certain possibilities"
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own HP Increased: 46%"
+					},
+					{
+						"level": 50,
+						"skill": "Gold Gain Increased during the battle: 24%"
+					},
+					{
+						"level": 100,
+						"skill": "Mid-air units attack yourself: 100%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Defense Power Increased: 28%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 700,
+						"skill": "A chance to block melee attack increased: 5%"
+					},
+					{
+						"level": 900,
+						"skill": "Own HP Increased: 46%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own HP Increased: 300%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own HP Increased: 500%"
+					},
+					{
+						"level": 1300,
+						"skill": "All units' Defense Power Increased: 200%"
+					},
+					{
+						"level": 1400,
+						"skill": "All units' HP Increased: 3a%"
+					},
+					{
+						"level": 1500,
+						"skill": "All units' HP Increased: 10a%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Senior Golem",
+				"id": 14,
+				"tribe": "human",
+				"image": "0014",
+				"stars": 6,
+				"type": "physical",
+				"fullArt": "14",
+				"sex": "neutral",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 70,
+					"baseHP": 840,
+					"basePhysicalDefense": 25.5,
+					"baseMagicalDefense": 13.6,
+					"attackSpeed": 65,
+					"attackRange": 40,
+					"movementSpeed": 7.76,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [13, 14, 246],
+					"pet": 7,
+					"battle": [
+						"Normal Attack: Splash damage enemies that are clsoe to the target, the target will be 100% stunned, surrounding units will be randomly stunned",
+						"Skill Attack: Cast an immune to physical attacks shield, stun the target with 100% chance while dealing double damage. Surrounding enemies will be randomly stunned",
+						"Never gets stunned. ",
+						"Never gets knocked back. "
+					],
+					"specialAbility": [
+						"Large Unit: Reduced impact from blow and knock-back attacks and short duration for freeze/ensnare. ",
+						"While being attacked, a shield defending 99% of physical and magical attack is casted on certain possibilities"
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own HP Increased: 61%"
+					},
+					{
+						"level": 50,
+						"skill": "Gold Gain Increased during the battle: 28%"
+					},
+					{
+						"level": 100,
+						"skill": "Mid-air units attack yourself: 100%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Defense Power Increased: 37%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Attack Power Increased: 31%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Critical Strike Damage Increased: 95%"
+					},
+					{
+						"level": 700,
+						"skill": "A chance to block melee attack increased: 9%"
+					},
+					{
+						"level": 900,
+						"skill": "Own HP Increased: 61%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Defense Power Increased: 300%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own HP Increased: 1a%"
+					},
+					{
+						"level": 1300,
+						"skill": "All units' Defense Power Increased: 500%"
+					},
+					{
+						"level": 1400,
+						"skill": "All units' HP Increased: 6a%"
+					},
+					{
+						"level": 1500,
+						"skill": "All units' HP Increased: 20a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's HP Increased: 300a%"
+					},
+					{
+						"level": 1700,
+						"skill": "Melee units' Attack Power Increased: 120a%"
+					},
+					{
+						"level": 1800,
+						"skill": "Melee units' Defense Power Increased: 240a%"
+					},
+					{
+						"level": 1900,
+						"skill": "All units' HP Increased: 5.4b%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 4b%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Fire Mage",
+				"id": 15,
+				"tribe": "human",
+				"image": "0015",
+				"stars": 5,
+				"type": "magical",
+				"fullArt": "16",
+				"sex": "female",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 42,
+					"baseHP": 202.5,
+					"basePhysicalDefense": 2.4,
+					"baseMagicalDefense": 3.9,
+					"attackSpeed": 60,
+					"attackRange": 280,
+					"movementSpeed": 7.2,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [15, 16, 238],
+					"pet": null,
+					"battle": [
+						"Normal Attack: By summoning a strong fireball, deal tremendous damage to ground targets and neighboring enemies, stun enemies randomly",
+						"Skill Attack: Summon a swarm of fire bird that attack mid-air and ground units, the enemies attacked by the fire birds will be stunned randomly"
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own Attack Distance Increased: 5%"
+					},
+					{
+						"level": 50,
+						"skill": "Quest Gold Increased: 24%"
+					},
+					{
+						"level": 100,
+						"skill": "Own Critical Strike Rate Increased: 3%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Critical Strike Rate Increased: 3%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 50%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Attack Power Increased: 100%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 300%"
+					},
+					{
+						"level": 1400,
+						"skill": "Ranged units' Attack Power Increased: 400%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1.5a%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Senior Fire Mage",
+				"id": 16,
+				"tribe": "human",
+				"image": "0016",
+				"stars": 6,
+				"type": "magical",
+				"fullArt": "16",
+				"sex": "female",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 72,
+					"baseHP": 351,
+					"basePhysicalDefense": 4,
+					"baseMagicalDefense": 6.5,
+					"attackSpeed": 60,
+					"attackRange": 280,
+					"movementSpeed": 7.2,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [15, 16, 238],
+					"pet": 8,
+					"battle": [
+						"Normal Attack: By summoning a strong fireball , deal tremendous damage to ground targets and neighboring enemies, stun enemies randomly",
+						"Skill Attack: Summon a swarm of fire birds that attack mid-air and ground units, the enemies attacked by the fire birds will be stunned randomly",
+						"Never gets blown away. ",
+						"Never gets knocked back. "
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own Attack Distance Increased: 9%"
+					},
+					{
+						"level": 50,
+						"skill": "Quest Gold Increased: 28%"
+					},
+					{
+						"level": 100,
+						"skill": "Own Critical Strike Rate Increased: 4%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Attack Power Increased: 31%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Critical Strike Damage Increased: 95%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Critical Strike Rate Increased: 4%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Attack Power Increased: 31%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Critical Strike Damage Increased: 95%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 100%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Attack Power Increased: 300%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 700%"
+					},
+					{
+						"level": 1400,
+						"skill": "Ranged units' Attack Power Increased: 800%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 3a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 20a%"
+					},
+					{
+						"level": 1700,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 147a%"
+					},
+					{
+						"level": 1800,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 210a%"
+					},
+					{
+						"level": 1900,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1.1b%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 2.2b%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Gunner",
+				"id": 17,
+				"tribe": "human",
+				"image": "0017",
+				"stars": 5,
+				"type": "magical",
+				"fullArt": "18",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": true,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 33,
+					"baseHP": 189,
+					"basePhysicalDefense": 2.4,
+					"baseMagicalDefense": 2.4,
+					"attackSpeed": 50,
+					"attackRange": 260,
+					"movementSpeed": 8.1,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [17, 18, 242],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Damage air unit and ground units with a magic cannonball. When it explodes, surrounding enemies will be splash damaged and stunned for a short amount of time. ",
+						"Skill Attack: Damage air unit and ground units with a number of magic cannonballs, when they explode, surrounding enemies will be splash damaged and stunned for a short amount of time. "
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 50,
+						"skill": "Gold Gain Increased during the battle: 24%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 5%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 500,
+						"skill": "Quest Gold Increased: 24%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Critical Strike Rate Increased: 3%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Critical Strike Rate Increased: 3%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Attack Power Increased: 200%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Attack Power Increased: 200%"
+					},
+					{
+						"level": 1300,
+						"skill": "Ranged units' Attack Power Increased: 300%"
+					},
+					{
+						"level": 1400,
+						"skill": "Ranged units' Attack Power Increased: 600%"
+					},
+					{
+						"level": 1500,
+						"skill": "Ranged units' Critical Strike Damage Increased: 2a%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Senior Gunner",
+				"id": 18,
+				"tribe": "human",
+				"image": "0018",
+				"stars": 6,
+				"type": "magical",
+				"fullArt": "18",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": true,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 55,
+					"baseHP": 333,
+					"basePhysicalDefense": 4,
+					"baseMagicalDefense": 4,
+					"attackSpeed": 50,
+					"attackRange": 260,
+					"movementSpeed": 8.1,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [17, 18, 242],
+					"pet": 9,
+					"battle": [
+						"Normal Attack: Damage air unit and ground units with a magic cannonball. When it explodes, surrounding enemies will be splash damaged and stunned for a short amount of time. ",
+						"Skill Attack: Damage air unit and ground units with a number of magic cannonballs, when they explode, surrounding enemies will be splash damaged and stunned for a short amount of time. ",
+						"Never gets knocked back. "
+					],
+					"specialAbility": ["None"],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own Attack Power Increased: 28%"
+					},
+					{
+						"level": 50,
+						"skill": "Gold Gain Increased during the battle: 27%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 10%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Attack Power Increased: 28%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Critical Strike Damage Increased: 85%"
+					},
+					{
+						"level": 500,
+						"skill": "Quest Gold Increased: 26%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Critical Strike Rate Increased: 4%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Critical Strike Rate Increased: 4%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Attack Power Increased: 200%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Attack Power Increased: 200%"
+					},
+					{
+						"level": 1300,
+						"skill": "Ranged units' Attack Power Increased: 600%"
+					},
+					{
+						"level": 1400,
+						"skill": "Ranged units' Attack Power Increased: 1.2a%"
+					},
+					{
+						"level": 1500,
+						"skill": "Ranged units' Critical Strike Damage Increased: 4.8a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Attack power Increased: 40a%"
+					},
+					{
+						"level": 1700,
+						"skill": "Ranged units' Attack Power Increased: 126a%"
+					},
+					{
+						"level": 1800,
+						"skill": "Ranged units' Attack Power Increased: 380a%"
+					},
+					{
+						"level": 1900,
+						"skill": "Ranged units' Critical Strike Damage Increased: 600a%"
+					},
+					{
+						"level": 2000,
+						"skill": "Ranged units' Attack Power Increased: 3.4b%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Priest",
+				"id": 94,
+				"tribe": "human",
+				"image": "0094",
+				"stars": 5,
+				"type": "magical",
+				"fullArt": "95",
+				"sex": "female",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 1,
+				"details": {
+					"baseAttack": 36,
+					"baseHP": 153,
+					"basePhysicalDefense": 2.4,
+					"baseMagicalDefense": 3.9,
+					"attackSpeed": 60,
+					"attackRange": 280,
+					"movementSpeed": 8.55,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [94, 95, 258],
+					"pet": null,
+					"battle": [
+						"Normal Attack: By emitting a sacred light, stun enemies and knock them back",
+						"Skill Attack: Unfreeze and unstun up to 3 of your units, cast a blessing of god which forms a shield immune to stun and freeze for a certain amount of time. 10% of HP will be also restored. "
+					],
+					"specialAbility": [
+						"God's Blessing: With 2% possibilities, 5 times speedup for 2 minues on every 10th floor (activation is applied based on accumulated possiblities)"
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Quest Gold Increased: 24%"
+					},
+					{
+						"level": 50,
+						"skill": "A chance to avoid ranged attack increased: 2%"
+					},
+					{
+						"level": 100,
+						"skill": "Own HP Increased: 46%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Defense Power Increased: 28%"
+					},
+					{
+						"level": 300,
+						"skill": "All units' Moving Speed Increased: 1%"
+					},
+					{
+						"level": 500,
+						"skill": "All units' HP Increased: 10%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Attack Power Increased: 20%"
+					},
+					{
+						"level": 900,
+						"skill": "A chance to avoid ranged attack increased: 2%"
+					},
+					{
+						"level": 1100,
+						"skill": "All units' Defense Power Increased: 50%"
+					},
+					{
+						"level": 1200,
+						"skill": "All units' HP Increased: 50%"
+					},
+					{
+						"level": 1300,
+						"skill": "All units' Defense Power Increased: 200%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Defense Power Increased: 400%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's HP Increased: 10a%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Senior Priest",
+				"id": 95,
+				"tribe": "human",
+				"image": "0095",
+				"stars": 6,
+				"type": "magical",
+				"fullArt": "95",
+				"sex": "female",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 1,
+				"details": {
+					"baseAttack": 60,
+					"baseHP": 265.5,
+					"basePhysicalDefense": 4,
+					"baseMagicalDefense": 6.5,
+					"attackSpeed": 60,
+					"attackRange": 280,
+					"movementSpeed": 8.55,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [94, 95, 258],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: By emitting a sacred light, stun enemies and knock them back",
+						"Skill Attack: Unfreeze and unstun up to 3 of your units, cast a blessing of god which forms a shield immune to stun and freeze for a certain amount of time. 10% of HP will be also restored. ",
+						"Never gets knocked back. "
+					],
+					"specialAbility": [
+						"God's Blessing: With 5% possibilities, 5 times speedup for 2 minutes on every 10th floor (activation possibility is applied based on accumulation)"
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Quest Gold Increased: 28%"
+					},
+					{
+						"level": 50,
+						"skill": "A chance to avoid ranged attack increased: 5%"
+					},
+					{
+						"level": 100,
+						"skill": "Own HP Increased: 61%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Defense Power Increased: 37%"
+					},
+					{
+						"level": 300,
+						"skill": "All units' Moving Speed Increased: 2%"
+					},
+					{
+						"level": 500,
+						"skill": "All units' HP Increased: 20%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 900,
+						"skill": "A chance to avoid ranged attack increased: 5%"
+					},
+					{
+						"level": 1100,
+						"skill": "All units' Defense Power Increased: 100%"
+					},
+					{
+						"level": 1200,
+						"skill": "All units' HP Increased: 100%"
+					},
+					{
+						"level": 1300,
+						"skill": "All units' Defense Power Increased: 400%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Defense Power Increased: 800%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's HP Increased: 20a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Defense Power Increased: 40a%"
+					},
+					{
+						"level": 1700,
+						"skill": "One's(Own) Tribe's HP Increased: 800a%"
+					},
+					{
+						"level": 1800,
+						"skill": "One's(Own) Tribe's Defense Power Increased: 350a%"
+					},
+					{
+						"level": 1900,
+						"skill": "All units' Defense Power Increased: 500a%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's HP Increased: 24b%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Aladdin",
+				"id": 104,
+				"tribe": "human",
+				"image": "0104",
+				"stars": 5,
+				"type": "physical",
+				"fullArt": "105",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 2,
+				"details": {
+					"baseAttack": 30,
+					"baseHP": 170,
+					"basePhysicalDefense": 2.4,
+					"baseMagicalDefense": 3.9,
+					"attackSpeed": 60,
+					"attackRange": 290,
+					"movementSpeed": 10.45,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [104, 105, 269],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Attacks an enemy by flinging a large golden coin (Range, air avaiable)",
+						"Skill Attack: Knocks back and stuns the enemies in front by summoning Genie of the magic Lamp) Knock-back Attack)"
+					],
+					"specialAbility": [
+						"Human's Secret Skill: When operating Human's Secret Skill, the amount of gold given increases by 10 times by 5% possibility. ",
+						"Gold Acquisition: Scatters gold while moving",
+						"Immune to Ground: Since the body is floating slightly above the ground, it it unaffected by the vine attack of druids from the ground. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Quest Gold Increased: 300%"
+					},
+					{
+						"level": 50,
+						"skill": "Decrease the unit upgrade cost: 100%"
+					},
+					{
+						"level": 100,
+						"skill": "Quest Gold Increased: 300%"
+					},
+					{
+						"level": 200,
+						"skill": "Decrease the quest upgrade cost: 100%"
+					},
+					{
+						"level": 300,
+						"skill": "Quest Gold Increased: 300%"
+					},
+					{
+						"level": 500,
+						"skill": "Reduce the quest time: 50%"
+					},
+					{
+						"level": 700,
+						"skill": "Quest Gold Increased: 300%"
+					},
+					{
+						"level": 900,
+						"skill": "Decrease the quest upgrade cost: 200%"
+					},
+					{
+						"level": 1100,
+						"skill": "Quest Gold Increased: 300%"
+					},
+					{
+						"level": 1200,
+						"skill": "Decrease the unit upgrade cost: 100%"
+					},
+					{
+						"level": 1300,
+						"skill": "Quest Gold Increased: 1a%"
+					},
+					{
+						"level": 1400,
+						"skill": "Quest Gold Increased: 1.5a%"
+					},
+					{
+						"level": 1500,
+						"skill": "Quest Gold Increased: 2a%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Senior Aladdin",
+				"id": 105,
+				"tribe": "human",
+				"image": "0105",
+				"stars": 6,
+				"type": "physical",
+				"fullArt": "105",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 2,
+				"details": {
+					"baseAttack": 50,
+					"baseHP": 295,
+					"basePhysicalDefense": 4,
+					"baseMagicalDefense": 6.5,
+					"attackSpeed": 60,
+					"attackRange": 290,
+					"movementSpeed": 10.45,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [104, 105, 269],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: Attacks an enemy by flinging a large golden coin (Range, air avaiable)",
+						"Skill Attack: Knocks back and stuns the enemies in front by summoning Genie of the Magic Lamp (Knock-back Attack)",
+						"Never gets knocked back. "
+					],
+					"specialAbility": [
+						"Human's Secret Skill: When operating Human's Secret Skill, the amount of gold given increases by 10 times by 15% possibility. ",
+						"Gold Acquisition: Scatters gold while moving",
+						"Immune to Ground: Since the body is floating slightly above the ground, it it unaffected by the vine attack of druids from the ground. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Quest Gold Increased: 600%"
+					},
+					{
+						"level": 50,
+						"skill": "Decrease the unit upgrade cost: 200%"
+					},
+					{
+						"level": 100,
+						"skill": "Quest Gold Increased: 600%"
+					},
+					{
+						"level": 200,
+						"skill": "Decrease the quest upgrade cost: 200%"
+					},
+					{
+						"level": 300,
+						"skill": "Quest Gold Increased: 600%"
+					},
+					{
+						"level": 500,
+						"skill": "Reduce the quest time: 100%"
+					},
+					{
+						"level": 700,
+						"skill": "Quest Gold Increased: 600%"
+					},
+					{
+						"level": 900,
+						"skill": "Decrease the quest upgrade cost: 300%"
+					},
+					{
+						"level": 1100,
+						"skill": "Quest Gold Increased: 600%"
+					},
+					{
+						"level": 1200,
+						"skill": "Decrease the unit upgrade cost: 300%"
+					},
+					{
+						"level": 1300,
+						"skill": "Quest Gold Increased: 2a%"
+					},
+					{
+						"level": 1400,
+						"skill": "Quest Gold Increased: 2.5a%"
+					},
+					{
+						"level": 1500,
+						"skill": "Quest Gold Increased: 3a%"
+					},
+					{
+						"level": 1600,
+						"skill": "Quest Gold Increased: 10a%"
+					},
+					{
+						"level": 1700,
+						"skill": "Quest Gold Increased: 30a%"
+					},
+					{
+						"level": 1800,
+						"skill": "Decrease the unit upgrade cost: 3a%"
+					},
+					{
+						"level": 1900,
+						"skill": "Quest Gold Increased: 300a%"
+					},
+					{
+						"level": 2000,
+						"skill": "Quest Gold Increased: 900a%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Griffin Rider",
+				"id": 110,
+				"tribe": "human",
+				"image": "0110",
+				"stars": 5,
+				"type": "physical",
+				"fullArt": "111",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 3,
+				"details": {
+					"baseAttack": 37.5,
+					"baseHP": 165,
+					"basePhysicalDefense": 2.4,
+					"baseMagicalDefense": 3.9,
+					"attackSpeed": 60,
+					"attackRange": 280,
+					"movementSpeed": 12.15,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [110, 111, 281],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Throws two long spears. knocks back and stun the enemy for a certain amount of time. ",
+						"Skill Attack: Throws several spears with 1.5 times damage, knocks back and stuns the enemy for a while. ",
+						"Team Buff: Increases the movement speed of each air unit in the team by 0.3%. In case of guild war, Increases by 0.03%. (If possessing 5 air units, Increases the movement speed by 1.5%. (Guild war: Increases by 0.15%))",
+						"Never gets blown away. "
+					],
+					"specialAbility": [
+						"Offline March: Increases offline marching speed by 5%",
+						"Makes oneself invisible at a regular rate and avoid all range attacks when attacked by enemies. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 50,
+						"skill": "Own HP Increased: 46%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Attack Distance Increased: 2%"
+					},
+					{
+						"level": 500,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 700,
+						"skill": "A chance to avoid ranged attack increased: 2%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Critical Strike Damage Increased: 60%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Critical Strike Damage Increased: 100%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Critical Strike Rate Increased: 2%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 1%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 500%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 2a%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Senior Griffin Rider",
+				"id": 111,
+				"tribe": "human",
+				"image": "0111",
+				"stars": 6,
+				"type": "physical",
+				"fullArt": "111",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 3,
+				"details": {
+					"baseAttack": 60,
+					"baseHP": 285,
+					"basePhysicalDefense": 4,
+					"baseMagicalDefense": 6.5,
+					"attackSpeed": 60,
+					"attackRange": 280,
+					"movementSpeed": 12.15,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [110, 111, 281],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: Throws two long spears. knocks back and stuns the enemmy for a while. ",
+						"Skill Attack: Throws several spears with two times damage, knocks back and stuns the enemy for a while. ",
+						"Team Buff: Increases the movement speed of each air unit in the team by 0.7%. In case of guild war, Increases by 0.07%. (If possessing 5 air units, Increases the movement speed by 3.5%. (Guild war: Increases by 0.35%))",
+						"Never gets blown away. ",
+						"Never gets knocked back. "
+					],
+					"specialAbility": [
+						"Offline March: Increases offline marching speed by 15%. ",
+						"Makes oneself invisible at a regular rate and avoids all range attacks when attacked by enemies. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own Attack Power Increased: 31%"
+					},
+					{
+						"level": 50,
+						"skill": "Own HP Increased: 61%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 2%"
+					},
+					{
+						"level": 200,
+						"skill": "Own Attack Power Increased: 31%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Attack Distance Increased: 3%"
+					},
+					{
+						"level": 500,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 2%"
+					},
+					{
+						"level": 700,
+						"skill": "A chance to avoid ranged attack increased: 5%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Critical Strike Damage Increased: 95%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Critical Strike Damage Increased: 200%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Critical Strike Rate Increased: 4%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 2%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 1a%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 4a%"
+					},
+					{
+						"level": 1600,
+						"skill": "Ranged units' Attack Power Increased: 42a%"
+					},
+					{
+						"level": 1700,
+						"skill": "Ranged units' Critical Strike Damage Increased: 70a%"
+					},
+					{
+						"level": 1800,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 210a%"
+					},
+					{
+						"level": 1900,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1.1b%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 3.3ba%"
+					}
+				],
+				"equipment": []
+			},
+			{
+				"name": "Hot-Blooded Xuanzang",
+				"id": 116,
+				"tribe": "human",
+				"image": "0116",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Hot-Blooded Xuanzang",
+				"id": 117,
+				"tribe": "human",
+				"image": "0117",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Pilot",
+				"id": 124,
+				"tribe": "human",
+				"image": "0124",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Pilot",
+				"id": 125,
+				"tribe": "human",
+				"image": "0125",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Steam Punk",
+				"id": 134,
+				"tribe": "human",
+				"image": "0134",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Steam Punk",
+				"id": 135,
+				"tribe": "human",
+				"image": "0135",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Valkyrie",
+				"id": 142,
+				"tribe": "human",
+				"image": "0142",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Valkyrie",
+				"id": 143,
+				"tribe": "human",
+				"image": "0143",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Flame Spirit",
+				"id": 158,
+				"tribe": "human",
+				"image": "0158",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Flame Spirit",
+				"id": 159,
+				"tribe": "human",
+				"image": "0159",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Cleric",
+				"id": 166,
+				"tribe": "human",
+				"image": "0166",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Cleric",
+				"id": 167,
+				"tribe": "human",
+				"image": "0167",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Winged Knight",
+				"id": 174,
+				"tribe": "human",
+				"image": "0174",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Winged Knight",
+				"id": 175,
+				"tribe": "human",
+				"image": "0175",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Musketress",
+				"id": 182,
+				"tribe": "human",
+				"image": "0182",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Musketress",
+				"id": 183,
+				"tribe": "human",
+				"image": "0183",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Crimson Hawk Rider",
+				"id": 190,
+				"tribe": "human",
+				"image": "0190",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Crimson Hawk Rider",
+				"id": 191,
+				"tribe": "human",
+				"image": "0191",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Paladin",
+				"id": 198,
+				"tribe": "human",
+				"image": "0198",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Paladin",
+				"id": 199,
+				"tribe": "human",
+				"image": "0199",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Sindbad",
+				"id": 206,
+				"tribe": "human",
+				"image": "0206",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Sindbad",
+				"id": 207,
+				"tribe": "human",
+				"image": "0207",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Salamander Rider",
+				"id": 214,
+				"tribe": "human",
+				"image": "0214",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Salamander Rider",
+				"id": 215,
+				"tribe": "human",
+				"image": "0215",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Fire Ranger",
+				"id": 222,
+				"tribe": "human",
+				"image": "0222",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Fire Ranger",
+				"id": 223,
+				"tribe": "human",
+				"image": "0223",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Flame Sibyl",
+				"id": 230,
+				"tribe": "human",
+				"image": "0230",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Flame Sibyl",
+				"id": 231,
+				"tribe": "human",
+				"image": "0231",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Fire Mage",
+				"id": 238,
+				"tribe": "human",
+				"image": "0238",
+				"stars": 7,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Gunner",
+				"id": 242,
+				"tribe": "human",
+				"image": "0242",
+				"stars": 7,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Golem",
+				"id": 246,
+				"tribe": "human",
+				"image": "0246",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Hot-Blooded Xuanzang",
+				"id": 293,
+				"tribe": "human",
+				"image": "293",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Aladdin",
+				"id": 269,
+				"tribe": "human",
+				"image": "269",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Atlantia",
+				"id": 250,
+				"tribe": "human",
+				"image": "981_UI_UNIT_ICONS0250",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Atlantia",
+				"id": 251,
+				"tribe": "human",
+				"image": "982_UI_UNIT_ICONS0251",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Priest",
+				"id": 258,
+				"tribe": "human",
+				"image": "1050_UI_UNIT_ICONS0258",
+				"stars": 7,
+				"type": "magical"
+			},
+			{
+				"name": "Rose Chevalier",
+				"id": 261,
+				"tribe": "human",
+				"image": "1061_UI_UNIT_ICONS0261",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Rose Chevalier",
+				"id": 262,
+				"tribe": "human",
+				"image": "1062_UI_UNIT_ICONS0262",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Engineer",
+				"id": 273,
+				"tribe": "human",
+				"image": "1113_UI_UNIT_ICONS0273",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Engineer",
+				"id": 274,
+				"tribe": "human",
+				"image": "1114_UI_UNIT_ICONS0274",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Griffin Rider",
+				"id": 281,
+				"tribe": "human",
+				"image": "1174_UI_UNIT_ICONS0281",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Machine Gunner",
+				"id": 285,
+				"tribe": "human",
+				"image": "1210_UI_UNIT_ICONS0285",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Machine Gunner",
+				"id": 286,
+				"tribe": "human",
+				"image": "1211_UI_UNIT_ICONS0286",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Ancient Flame Dragon Knight",
+				"id": 9996,
+				"tribe": "human",
+				"image": "d0001",
+				"stars": 8,
+				"type": "physical"
+			}
+		],
+		"elf": [
+			{
+				"name": "Elf Archer",
+				"id": 21,
+				"tribe": "elf",
+				"image": "0021",
+				"stars": 1,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Elf Archer",
+				"id": 22,
+				"tribe": "elf",
+				"image": "0022",
+				"stars": 2,
+				"type": "physical"
+			},
+			{
+				"name": "Elf Warrior",
+				"id": 23,
+				"tribe": "elf",
+				"image": "0023",
+				"stars": 2,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Elf Warrior",
+				"id": 24,
+				"tribe": "elf",
+				"image": "0024",
+				"stars": 3,
+				"type": "physical"
+			},
+			{
+				"name": "Poison Archer",
+				"id": 25,
+				"tribe": "elf",
+				"image": "0025",
+				"stars": 2,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Poison Archer",
+				"id": 26,
+				"tribe": "elf",
+				"image": "0026",
+				"stars": 4,
+				"type": "magical"
+			},
+			{
+				"name": "High Elf Archer",
+				"id": 27,
+				"tribe": "elf",
+				"image": "0027",
+				"stars": 3,
+				"type": "magical"
+			},
+			{
+				"name": "Senior High Elf Archer",
+				"id": 28,
+				"tribe": "elf",
+				"image": "0028",
+				"stars": 4,
+				"type": "magical"
+			},
+			{
+				"name": "Green Eagle",
+				"id": 29,
+				"tribe": "elf",
+				"image": "0029",
+				"stars": 3,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Green Eagle",
+				"id": 30,
+				"tribe": "elf",
+				"image": "0030",
+				"stars": 4,
+				"type": "physical"
+			},
+			{
+				"name": "Wind Mage",
+				"id": 31,
+				"tribe": "elf",
+				"image": "0031",
+				"stars": 4,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Wind Mage",
+				"id": 32,
+				"tribe": "elf",
+				"image": "0032",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Ent",
+				"id": 33,
+				"tribe": "elf",
+				"image": "0033",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Ent",
+				"id": 34,
+				"tribe": "elf",
+				"image": "0034",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Wolf Warrior",
+				"id": 35,
+				"tribe": "elf",
+				"image": "0035",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Wolf Warrior",
+				"id": 36,
+				"tribe": "elf",
+				"image": "0036",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Unicorn Knight",
+				"id": 37,
+				"tribe": "elf",
+				"image": "0037",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Unicorn Knight",
+				"id": 38,
+				"tribe": "elf",
+				"image": "0038",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Fairy",
+				"id": 96,
+				"tribe": "elf",
+				"image": "0096",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Fairy",
+				"id": 97,
+				"tribe": "elf",
+				"image": "0097",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Druid",
+				"id": 106,
+				"tribe": "elf",
+				"image": "0106",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Druid",
+				"id": 107,
+				"tribe": "elf",
+				"image": "0107",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Forest Guardian",
+				"id": 112,
+				"tribe": "elf",
+				"image": "0112",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Forest Guardian",
+				"id": 113,
+				"tribe": "elf",
+				"image": "0113",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Hoyden Goku",
+				"id": 118,
+				"tribe": "elf",
+				"image": "0118",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Hoyden Goku",
+				"id": 119,
+				"tribe": "elf",
+				"image": "0119",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Alchemist",
+				"id": 126,
+				"tribe": "elf",
+				"image": "0126",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Alchemist",
+				"id": 127,
+				"tribe": "elf",
+				"image": "0127",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Sylphid",
+				"id": 136,
+				"tribe": "elf",
+				"image": "0136",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Sylphid",
+				"id": 137,
+				"tribe": "elf",
+				"image": "0137",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Sword Dancer",
+				"id": 144,
+				"tribe": "elf",
+				"image": "0144",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Sword Dancer",
+				"id": 145,
+				"tribe": "elf",
+				"image": "0145",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Hippogriff",
+				"id": 160,
+				"tribe": "elf",
+				"image": "0160",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Hippogriff",
+				"id": 161,
+				"tribe": "elf",
+				"image": "0161",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Elementalist",
+				"id": 168,
+				"tribe": "elf",
+				"image": "0168",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Elementalist",
+				"id": 169,
+				"tribe": "elf",
+				"image": "0169",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Windwalker",
+				"id": 176,
+				"tribe": "elf",
+				"image": "0176",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Windwalker",
+				"id": 177,
+				"tribe": "elf",
+				"image": "0177",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Elf Sage",
+				"id": 184,
+				"tribe": "elf",
+				"image": "0184",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Elf Sage",
+				"id": 185,
+				"tribe": "elf",
+				"image": "0185",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Astral Captain",
+				"id": 192,
+				"tribe": "elf",
+				"image": "0192",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Astral Captain",
+				"id": 193,
+				"tribe": "elf",
+				"image": "0193",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Royal Druid",
+				"id": 200,
+				"tribe": "elf",
+				"image": "0200",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Royal Druid",
+				"id": 201,
+				"tribe": "elf",
+				"image": "0201",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Champion",
+				"id": 208,
+				"tribe": "elf",
+				"image": "0208",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Champion",
+				"id": 209,
+				"tribe": "elf",
+				"image": "0209",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "High Fairy",
+				"id": 216,
+				"tribe": "elf",
+				"image": "0216",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior High Fairy",
+				"id": 217,
+				"tribe": "elf",
+				"image": "0217",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Forest Knight",
+				"id": 224,
+				"tribe": "elf",
+				"image": "0224",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Forest Knight",
+				"id": 225,
+				"tribe": "elf",
+				"image": "0225",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Mystic Archer",
+				"id": 232,
+				"tribe": "elf",
+				"image": "0232",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Mystic Archer",
+				"id": 233,
+				"tribe": "elf",
+				"image": "0233",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Unicorn Knight",
+				"id": 239,
+				"tribe": "elf",
+				"image": "0239",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Ent",
+				"id": 243,
+				"tribe": "elf",
+				"image": "0243",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Wolf Warrior",
+				"id": 247,
+				"tribe": "elf",
+				"image": "0247",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Druid",
+				"id": 270,
+				"tribe": "elf",
+				"image": "270",
+				"stars": 7,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Hoyden Goku",
+				"id": 294,
+				"tribe": "elf",
+				"image": "294",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Wolf Master",
+				"id": 252,
+				"tribe": "elf",
+				"image": "983_UI_UNIT_ICONS0252",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Wolf Master",
+				"id": 253,
+				"tribe": "elf",
+				"image": "984_UI_UNIT_ICONS0253",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Fairy",
+				"id": 259,
+				"tribe": "elf",
+				"image": "1051_UI_UNIT_ICONS0259",
+				"stars": 7,
+				"type": "magical"
+			},
+			{
+				"name": "Archon Druid",
+				"id": 263,
+				"tribe": "elf",
+				"image": "1063_UI_UNIT_ICONS0263",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Archon Druid",
+				"id": 264,
+				"tribe": "elf",
+				"image": "1064_UI_UNIT_ICONS0264",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Wing Lancer",
+				"id": 275,
+				"tribe": "elf",
+				"image": "1115_UI_UNIT_ICONS0275",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Wing Lancer",
+				"id": 276,
+				"tribe": "elf",
+				"image": "1116_UI_UNIT_ICONS0276",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Forest Guardian",
+				"id": 282,
+				"tribe": "elf",
+				"image": "1175_UI_UNIT_ICONS0282",
+				"stars": 7,
+				"type": "magical"
+			},
+			{
+				"name": "Acer Breeze",
+				"id": 287,
+				"tribe": "elf",
+				"image": "1212_UI_UNIT_ICONS0287",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Acer Breeze",
+				"id": 288,
+				"tribe": "elf",
+				"image": "1213_UI_UNIT_ICONS0288",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Ancient Guardian of the Forest",
+				"id": 9997,
+				"tribe": "elf",
+				"image": "d0002",
+				"stars": 8,
+				"type": "magical"
+			}
+		],
+		"undead": [
+			{
+				"name": "Skeleton Unit",
+				"id": 41,
+				"tribe": "undead",
+				"image": "0041",
+				"stars": 1,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Skeleton Unit",
+				"id": 42,
+				"tribe": "undead",
+				"image": "0042",
+				"stars": 2,
+				"type": "physical"
+			},
+			{
+				"name": "Warlock",
+				"id": 43,
+				"tribe": "undead",
+				"image": "0043",
+				"stars": 2,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Warlock",
+				"id": 44,
+				"tribe": "undead",
+				"image": "0044",
+				"stars": 3,
+				"type": "magical"
+			},
+			{
+				"name": "Ghost",
+				"id": 45,
+				"tribe": "undead",
+				"image": "0045",
+				"stars": 2,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Ghost",
+				"id": 46,
+				"tribe": "undead",
+				"image": "0046",
+				"stars": 4,
+				"type": "magical"
+			},
+			{
+				"name": "Skeleton Warrior",
+				"id": 47,
+				"tribe": "undead",
+				"image": "0047",
+				"stars": 3,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Skeleton Warrior",
+				"id": 48,
+				"tribe": "undead",
+				"image": "0048",
+				"stars": 4,
+				"type": "physical"
+			},
+			{
+				"name": "Great Hammer Unit",
+				"id": 49,
+				"tribe": "undead",
+				"image": "0049",
+				"stars": 3,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Great Hammer Unit",
+				"id": 50,
+				"tribe": "undead",
+				"image": "0050",
+				"stars": 4,
+				"type": "physical"
+			},
+			{
+				"name": "Black Magic Wizard",
+				"id": 51,
+				"tribe": "undead",
+				"image": "0051",
+				"stars": 4,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Black Magic Wizard",
+				"id": 52,
+				"tribe": "undead",
+				"image": "0052",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Hands of Death",
+				"id": 53,
+				"tribe": "undead",
+				"image": "0053",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Hands of Death",
+				"id": 54,
+				"tribe": "undead",
+				"image": "0054",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Bomb Unit",
+				"id": 55,
+				"tribe": "undead",
+				"image": "0055",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Bomb Unit",
+				"id": 56,
+				"tribe": "undead",
+				"image": "0056",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Death Knight",
+				"id": 57,
+				"tribe": "undead",
+				"image": "0057",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Death Knight",
+				"id": 58,
+				"tribe": "undead",
+				"image": "0058",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Dark Archer",
+				"id": 98,
+				"tribe": "undead",
+				"image": "0098",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Dark Archer",
+				"id": 99,
+				"tribe": "undead",
+				"image": "0099",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Dark Ninja",
+				"id": 108,
+				"tribe": "undead",
+				"image": "0108",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Dark Ninja",
+				"id": 109,
+				"tribe": "undead",
+				"image": "0109",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Succubus",
+				"id": 114,
+				"tribe": "undead",
+				"image": "0114",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Succubus",
+				"id": 115,
+				"tribe": "undead",
+				"image": "0115",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Dark Admiral",
+				"id": 120,
+				"tribe": "undead",
+				"image": "0120",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Dark Admiral",
+				"id": 121,
+				"tribe": "undead",
+				"image": "0121",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Lich",
+				"id": 128,
+				"tribe": "undead",
+				"image": "0128",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Lich",
+				"id": 129,
+				"tribe": "undead",
+				"image": "0129",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Medusa",
+				"id": 138,
+				"tribe": "undead",
+				"image": "0138",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Medusa",
+				"id": 139,
+				"tribe": "undead",
+				"image": "0139",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Incubus",
+				"id": 146,
+				"tribe": "undead",
+				"image": "0146",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Incubus",
+				"id": 147,
+				"tribe": "undead",
+				"image": "0147",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Dark Spirit",
+				"id": 162,
+				"tribe": "undead",
+				"image": "0162",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Dark Spirit",
+				"id": 163,
+				"tribe": "undead",
+				"image": "0163",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Dark Elf",
+				"id": 170,
+				"tribe": "undead",
+				"image": "0170",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Dark Elf",
+				"id": 171,
+				"tribe": "undead",
+				"image": "0171",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Abyss Mage",
+				"id": 178,
+				"tribe": "undead",
+				"image": "0178",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Abyss Mage",
+				"id": 179,
+				"tribe": "undead",
+				"image": "0179",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Crow Knight",
+				"id": 186,
+				"tribe": "undead",
+				"image": "0186",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Crow Knight",
+				"id": 187,
+				"tribe": "undead",
+				"image": "0187",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Shadow Knight",
+				"id": 194,
+				"tribe": "undead",
+				"image": "0194",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Shadow Knight",
+				"id": 195,
+				"tribe": "undead",
+				"image": "0195",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Skeleton Master",
+				"id": 202,
+				"tribe": "undead",
+				"image": "0202",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Succubus",
+				"id": 203,
+				"tribe": "undead",
+				"image": "283",
+				"stars": 7,
+				"type": "magical"
+			},
+			{
+				"name": "Undertaker",
+				"id": 210,
+				"tribe": "undead",
+				"image": "0210",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Undertaker",
+				"id": 211,
+				"tribe": "undead",
+				"image": "0211",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Dark Priestess",
+				"id": 218,
+				"tribe": "undead",
+				"image": "0218",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Dark Priestess",
+				"id": 219,
+				"tribe": "undead",
+				"image": "0219",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Devil Mage",
+				"id": 226,
+				"tribe": "undead",
+				"image": "0226",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Devil Mage",
+				"id": 227,
+				"tribe": "undead",
+				"image": "0227",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Skeleton General",
+				"id": 234,
+				"tribe": "undead",
+				"image": "0234",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Skeleton General",
+				"id": 235,
+				"tribe": "undead",
+				"image": "0235",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Death Knight",
+				"id": 240,
+				"tribe": "undead",
+				"image": "0240",
+				"stars": 7,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Bomb Unit",
+				"id": 244,
+				"tribe": "undead",
+				"image": "244",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Hands of Death",
+				"id": 248,
+				"tribe": "undead",
+				"image": "248",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Dark Ninja",
+				"id": 271,
+				"tribe": "undead",
+				"image": "271",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Dark Admiral",
+				"id": 295,
+				"tribe": "undead",
+				"image": "295",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Demon Sword",
+				"id": 254,
+				"tribe": "undead",
+				"image": "985_UI_UNIT_ICONS0254",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Demon Sword",
+				"id": 255,
+				"tribe": "undead",
+				"image": "986_UI_UNIT_ICONS0255",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Dark Archer",
+				"id": 260,
+				"tribe": "undead",
+				"image": "1052_UI_UNIT_ICONS0260",
+				"stars": 7,
+				"type": "magical"
+			},
+			{
+				"name": "Death Preacher",
+				"id": 265,
+				"tribe": "undead",
+				"image": "1065_UI_UNIT_ICONS0265",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Death Preacher",
+				"id": 266,
+				"tribe": "undead",
+				"image": "1066_UI_UNIT_ICONS0266",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Scylla",
+				"id": 277,
+				"tribe": "undead",
+				"image": "1117_UI_UNIT_ICONS0277",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Scylla",
+				"id": 278,
+				"tribe": "undead",
+				"image": "1118_UI_UNIT_ICONS0278",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Devil Fighter",
+				"id": 289,
+				"tribe": "undead",
+				"image": "1214_UI_UNIT_ICONS0289",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Devil Fighter",
+				"id": 290,
+				"tribe": "undead",
+				"image": "1215_UI_UNIT_ICONS0290",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Mamon the Hell Lord",
+				"id": 9998,
+				"tribe": "undead",
+				"image": "d0003",
+				"stars": 8,
+				"type": "magical"
+			}
+		],
+		"orc": [
+			{
+				"name": "Orc Figher",
+				"id": 61,
+				"tribe": "orc",
+				"image": "0061",
+				"stars": 1,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Orc Figher",
+				"id": 62,
+				"tribe": "orc",
+				"image": "0062",
+				"stars": 2,
+				"type": "magical"
+			},
+			{
+				"name": "Orc Hunter",
+				"id": 63,
+				"tribe": "orc",
+				"image": "0063",
+				"stars": 2,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Orc Hunter",
+				"id": 64,
+				"tribe": "orc",
+				"image": "0064",
+				"stars": 3,
+				"type": "physical"
+			},
+			{
+				"name": "Frost Mage",
+				"id": 65,
+				"tribe": "orc",
+				"image": "0065",
+				"stars": 2,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Frost Mage",
+				"id": 66,
+				"tribe": "orc",
+				"image": "0066",
+				"stars": 4,
+				"type": "magical"
+			},
+			{
+				"name": "Orc Wing",
+				"id": 67,
+				"tribe": "orc",
+				"image": "0067",
+				"stars": 3,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Orc Wing",
+				"id": 68,
+				"tribe": "orc",
+				"image": "0068",
+				"stars": 4,
+				"type": "magical"
+			},
+			{
+				"name": "Orc Ax Unit",
+				"id": 69,
+				"tribe": "orc",
+				"image": "0069",
+				"stars": 4,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Orc Ax Unit",
+				"id": 70,
+				"tribe": "orc",
+				"image": "0070",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Orc Hammer Unit",
+				"id": 71,
+				"tribe": "orc",
+				"image": "0071",
+				"stars": 3,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Orc Hammer Unit",
+				"id": 72,
+				"tribe": "orc",
+				"image": "0072",
+				"stars": 4,
+				"type": "physical"
+			},
+			{
+				"name": "Big Foot",
+				"id": 73,
+				"tribe": "orc",
+				"image": "0073",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Big Foot",
+				"id": 74,
+				"tribe": "orc",
+				"image": "0074",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Ice Wizard",
+				"id": 75,
+				"tribe": "orc",
+				"image": "0075",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Ice Wizard",
+				"id": 76,
+				"tribe": "orc",
+				"image": "0076",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Wolf Rider",
+				"id": 77,
+				"tribe": "orc",
+				"image": "0077",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Wolf Rider",
+				"id": 78,
+				"tribe": "orc",
+				"image": "0078",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Sorcerer",
+				"id": 100,
+				"tribe": "orc",
+				"image": "0100",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Sorcerer",
+				"id": 101,
+				"tribe": "orc",
+				"image": "0101",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Battle Drummer",
+				"id": 102,
+				"tribe": "orc",
+				"image": "0102",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Battle Drummer",
+				"id": 103,
+				"tribe": "orc",
+				"image": "0103",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Raptor Rider",
+				"id": 122,
+				"tribe": "orc",
+				"image": "0122",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Raptor Rider",
+				"id": 123,
+				"tribe": "orc",
+				"image": "0123",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Wyvern Rider",
+				"id": 130,
+				"tribe": "orc",
+				"image": "0130",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Wyvern Rider",
+				"id": 131,
+				"tribe": "orc",
+				"image": "0131",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Naga",
+				"id": 140,
+				"tribe": "orc",
+				"image": "0140",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Naga",
+				"id": 141,
+				"tribe": "orc",
+				"image": "0141",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Ice Spirit",
+				"id": 148,
+				"tribe": "orc",
+				"image": "0148",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Ice Spirit",
+				"id": 149,
+				"tribe": "orc",
+				"image": "0149",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Blade Master",
+				"id": 164,
+				"tribe": "orc",
+				"image": "0164",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Blade Master",
+				"id": 165,
+				"tribe": "orc",
+				"image": "0165",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Frost Demon",
+				"id": 172,
+				"tribe": "orc",
+				"image": "0172",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Frost Demon",
+				"id": 173,
+				"tribe": "orc",
+				"image": "0173",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Siren",
+				"id": 180,
+				"tribe": "orc",
+				"image": "0180",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Siren",
+				"id": 181,
+				"tribe": "orc",
+				"image": "0181",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Rangda",
+				"id": 188,
+				"tribe": "orc",
+				"image": "0188",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Rangda",
+				"id": 189,
+				"tribe": "orc",
+				"image": "0189",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "War Bear Rider",
+				"id": 196,
+				"tribe": "orc",
+				"image": "0196",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior War Bear Rider",
+				"id": 197,
+				"tribe": "orc",
+				"image": "0197",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Battle Hornist",
+				"id": 204,
+				"tribe": "orc",
+				"image": "0204",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Battle Hornist",
+				"id": 205,
+				"tribe": "orc",
+				"image": "0205",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Barbarian",
+				"id": 212,
+				"tribe": "orc",
+				"image": "0212",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Barbarian",
+				"id": 213,
+				"tribe": "orc",
+				"image": "0213",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Naga Knight",
+				"id": 220,
+				"tribe": "orc",
+				"image": "0220",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Naga Knight",
+				"id": 221,
+				"tribe": "orc",
+				"image": "0221",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Storm Warrior",
+				"id": 228,
+				"tribe": "orc",
+				"image": "0228",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Storm Warrior",
+				"id": 229,
+				"tribe": "orc",
+				"image": "0229",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Frozen Witch",
+				"id": 236,
+				"tribe": "orc",
+				"image": "0236",
+				"stars": 5,
+				"type": "magical"
+			},
+			{
+				"name": "Senior Frozen Witch",
+				"id": 237,
+				"tribe": "orc",
+				"image": "0237",
+				"stars": 6,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Wolf Rider",
+				"id": 241,
+				"tribe": "orc",
+				"image": "0241",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Big Foot",
+				"id": 245,
+				"tribe": "orc",
+				"image": "0245",
+				"stars": 7,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Ice Wizard",
+				"id": 249,
+				"tribe": "orc",
+				"image": "0249",
+				"stars": 7,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Battle Drummer",
+				"id": 272,
+				"tribe": "orc",
+				"image": "272",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Extreme Sorcerer",
+				"id": 284,
+				"tribe": "orc",
+				"image": "284",
+				"stars": 7,
+				"type": "magical"
+			},
+			{
+				"name": "Extreme Raptor Rider",
+				"id": 296,
+				"tribe": "orc",
+				"image": "296",
+				"stars": 7,
+				"type": "physical"
+			},
+			{
+				"name": "Himarazan",
+				"id": 256,
+				"tribe": "orc",
+				"image": "987_UI_UNIT_ICONS0256",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Himarazan",
+				"id": 257,
+				"tribe": "orc",
+				"image": "988_UI_UNIT_ICONS0257",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Warwolf Fighter",
+				"id": 267,
+				"tribe": "orc",
+				"image": "1067_UI_UNIT_ICONS0267",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Warwolf Fighter",
+				"id": 268,
+				"tribe": "orc",
+				"image": "1068_UI_UNIT_ICONS0268",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Hog Rider",
+				"id": 279,
+				"tribe": "orc",
+				"image": "1119_UI_UNIT_ICONS0279",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Hog Rider",
+				"id": 280,
+				"tribe": "orc",
+				"image": "1120_UI_UNIT_ICONS0280",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Deep One Reaper",
+				"id": 291,
+				"tribe": "orc",
+				"image": "1216_UI_UNIT_ICONS0291",
+				"stars": 5,
+				"type": "physical"
+			},
+			{
+				"name": "Senior Deep One Reaper",
+				"id": 292,
+				"tribe": "orc",
+				"image": "1217_UI_UNIT_ICONS0292",
+				"stars": 6,
+				"type": "physical"
+			},
+			{
+				"name": "Dragon Knight of Cold",
+				"id": 9999,
+				"tribe": "orc",
+				"image": "d0004",
+				"stars": 8,
+				"type": "physical"
+			}
+		]
+	}
+}
