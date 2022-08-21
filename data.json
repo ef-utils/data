@@ -1,5 +1,5 @@
 {
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"units": {
 		"human": [
 			{
@@ -2277,7 +2277,7 @@
 					"criticalRate": 20,
 					"criticalDamage": 50.0,
 					"respawnTime": 150,
-					"evolutions": [116, 117],
+					"evolutions": [116, 117, 293],
 					"pet": null,
 					"battle": [
 						"Normal Attack: Fires electricity bolts under a spell, attacks and stuns three enemy units. (Damage decreases every time electricty bolds rebound.)",
@@ -2368,7 +2368,7 @@
 					"criticalRate": 20,
 					"criticalDamage": 50.0,
 					"respawnTime": 150,
-					"evolutions": [116, 117],
+					"evolutions": [116, 117, 293],
 					"pet": 0,
 					"battle": [
 						"Normal Attack: Fires electricity bolts under a spell, attacks and stuns three enemy units. (Damage decreases every time electricity bolts rebound.)",
@@ -2670,7 +2670,92 @@
 				"tribe": "human",
 				"image": "0134",
 				"stars": 5,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "135",
+				"sex": "neutral",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 6,
+				"details": {
+					"baseAttack": 36,
+					"baseHP": 252,
+					"basePhysicalDefense": 2.4,
+					"baseMagicalDefense": 3.9,
+					"attackSpeed": 60,
+					"attackRange": 360,
+					"movementSpeed": 11.55,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [134, 135],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Repeated attack that has a chance to stun enemies. ",
+						"Skill Attack: Launches multiple missiles that stun and damage surrounding units. ",
+						"Team Buff: Increases human and elf's movement speed, attack speed, and attack range by 2%. ",
+						"Increase the game speed: Increases game speed by 2%. (It will be 2.04 times when double speed is applied. "
+					],
+					"specialAbility": [
+						"Inner Passion: Increases all abilities (attack/defense/HP) of units by 2 levels. ([Inner passion] can only be used in states. [Inner passion] is accrued when applied, but the unit abilities cannot increase to more than +100 level. This is activated even when units are in the Time Shop.)",
+						"Large Unit: Reduced impact from blow and knock-back attacks and short duration for freeze/ensnare. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own HP Increased: 41%"
+					},
+					{
+						"level": 50,
+						"skill": "Own Attack Power Increased: 23%"
+					},
+					{
+						"level": 100,
+						"skill": "Own Critical Strike Damage Increased: 60%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 300,
+						"skill": "Own HP Increased: 46%"
+					},
+					{
+						"level": 500,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Critical Strike Damage Increased: 60%"
+					},
+					{
+						"level": 900,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 1%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1200,
+						"skill": "Ranged units' Attack Speed Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 300%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 600%"
+					},
+					{
+						"level": 1500,
+						"skill": "Ranged units' Critical Strike Damage Increased: 2.3a%"
+					}
+				],
+				"equipment": []
 			},
 			{
 				"name": "Senior Steam Punk",
@@ -2678,7 +2763,113 @@
 				"tribe": "human",
 				"image": "0135",
 				"stars": 6,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "135",
+				"sex": "neutral",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 6,
+				"details": {
+					"baseAttack": 60,
+					"baseHP": 444,
+					"basePhysicalDefense": 4,
+					"baseMagicalDefense": 6.5,
+					"attackSpeed": 60,
+					"attackRange": 360,
+					"movementSpeed": 11.55,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [134, 135],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: Repeated attack that has a chance to stun enemies. ",
+						"Skill Attack: Launches multiple missiles that stan and damage surrounding units. ",
+						"Team Buff: Increases human and elf's movement speed, attack speed, and attack range by 4%. ",
+						"Never gets knocked back . ",
+						"Increase the game speed: Increases game speed by 5%. (It will be 2.10 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Inner Passion: Increases all abilities (attack/defense/HP) of units by 5 levels. ([Inner passion] can only be used in states. [Inner passion] is accrued when applied, but the unit abilities cannot increase to more than +100 level. This is activated even when units are in the Time Shop.)",
+						"Large Unit: Reduced impact from blow and knock-back attacks and short duration for freeze/ensnare. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "Own HP Increased: 61%"
+					},
+					{
+						"level": 50,
+						"skill": "Own Attack Power Increased: 31%"
+					},
+					{
+						"level": 100,
+						"skill": "Own Critical Strike Damage Increased: 95%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 300,
+						"skill": "Own HP Increased: 61%"
+					},
+					{
+						"level": 500,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Critical Strike Damage Increased: 95%"
+					},
+					{
+						"level": 900,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 2%"
+					},
+					{
+						"level": 1100,
+						"skill": "Own Attack Distance Increased: 2%"
+					},
+					{
+						"level": 1200,
+						"skill": "Ranged units' Attack Speed Increased: 2%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 600%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1.1a%"
+					},
+					{
+						"level": 1500,
+						"skill": "Ranged units' Critical Strike Damage Increased: 4.7a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 52a%"
+					},
+					{
+						"level": 1700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 176a%"
+					},
+					{
+						"level": 1800,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 480a%"
+					},
+					{
+						"level": 1900,
+						"skill": "Ranged units' Critical Strike Damage Increased: 720a%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 4.3b%"
+					}
+				],
+				"equipment": []
 			},
 			{
 				"name": "Valkyrie",
@@ -2686,7 +2877,93 @@
 				"tribe": "human",
 				"image": "0142",
 				"stars": 5,
-				"type": "physical"
+				"type": "physical",
+				"fullArt": "143",
+				"sex": "female",
+				"airAttack": true,
+				"cloakingDetection": true,
+				"specialUnit": 7,
+				"details": {
+					"baseAttack": 36,
+					"baseHP": 252,
+					"basePhysicalDefense": 2.4,
+					"baseMagicalDefense": 3.9,
+					"attackSpeed": 60,
+					"attackRange": 304,
+					"movementSpeed": 12.20,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [142, 143],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Throws several axes to attack and stun multiple enemies for a short period. ",
+						"Skill Attack: Casts powerful Valkyrie buff that raises attack, movement, and attack speed of nearby units for a short period. (Units have a 50% chance to receive Valkyrie buff, and the buffed stats increase whenever Valkyrie transcends.)",
+						"Team Buff: Increases movement speed and attack range of human units by 3%. ",
+						"Never gets paralyzed. ",
+						"Increases the game speed: Increases game speed by 4%. (It will be 2.08 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Innervate 1: Reduced raid skill cool-time by 1%. (Innervate can be stacked, but cannot exceed 40%. Also applies when units are in Time Shop.)",
+						"Casts Valkyrie buff when killed. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 20%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 300,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Attack Distance Increased: 1%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 900,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 1%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 1200,
+						"skill": "One's(Own) Tribe's Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 300%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 600%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 2.6a%"
+					}
+				],
+				"equipment": []
 			},
 			{
 				"name": "Senior Valkyrie",
@@ -2694,7 +2971,114 @@
 				"tribe": "human",
 				"image": "0143",
 				"stars": 6,
-				"type": "physical"
+				"type": "physical",
+				"fullArt": "143",
+				"sex": "female",
+				"airAttack": true,
+				"cloakingDetection": true,
+				"specialUnit": 7,
+				"details": {
+					"baseAttack": 60,
+					"baseHP": 444,
+					"basePhysicalDefense": 4,
+					"baseMagicalDefense": 6.5,
+					"attackSpeed": 60,
+					"attackRange": 304,
+					"movementSpeed": 12.20,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [142, 143],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: Throws several axes to attack and stun multiple enemies for a short period. ",
+						"Skill Attack: Casts powerful Valkyrie buff that raises attack, movement, and attack speed of nearby units for a short period. (Units have a 50% chance to receive Valkyrie buff, and the buffed stats increase whenever Valkyrie transcends,)",
+						"Team Buff: Increases movement speed and attack range of human units by 6%. ",
+						"Never gets knocked back. ",
+						"Never gets paralyzed. ",
+						"Increase the game speed: Increases game speed by 8%. (It will be 2.16 tuimes when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Innervate 1: Reduced raid skill cool-time by 3%. (Innervate can be stacked, but cannot exceed 40%. Also applies when units are in Time Shop.)",
+						"Casts Valkyrie buff when killed. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 27%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 300,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Attack Distance Increased: 3%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 900,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 2%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 1200,
+						"skill": "One's(Own) Tribe's Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 600%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1.1a%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 5.2a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 28a%"
+					},
+					{
+						"level": 1700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 430a%"
+					},
+					{
+						"level": 1800,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 670a%"
+					},
+					{
+						"level": 1900,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1.3b%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 4.b%"
+					}
+				],
+				"equipment": []
 			},
 			{
 				"name": "Flame Spirit",
