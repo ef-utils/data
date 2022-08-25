@@ -1,5 +1,4 @@
 {
-	"version": "0.0.4",
 	"units": {
 		"human": [
 			{
@@ -3412,7 +3411,7 @@
 					"criticalRate": 20,
 					"criticalDamage": 50.0,
 					"respawnTime": 150,
-					"evolutions": [167, 168],
+					"evolutions": [166, 167],
 					"pet": 0,
 					"battle": [
 						"Normal Attack: Attack maximum of 4 enemies by throwing an energy of holy light, and stun them. ",
