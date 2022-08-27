@@ -3513,7 +3513,100 @@
 				"tribe": "human",
 				"image": "0174",
 				"stars": 5,
-				"type": "physical"
+				"type": "physical",
+				"fullArt": "175",
+				"sex": "female",
+				"airAttack": false,
+				"cloakingDetection": true,
+				"specialUnit": 10,
+				"details": {
+					"baseAttack": 33,
+					"baseHP": 270,
+					"basePhysicalDefense": 2.4,
+					"baseMagicalDefense": 2.4,
+					"attackSpeed": 60,
+					"attackRange": 45,
+					"movementSpeed": 13.00,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [174, 175],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Attacks multiple targets wth its long spear. ",
+						"Skill Attack: Flies to the enemy's base and then attacks multiple targets. ",
+						"Team Buff: Increases the movement speed and critical damage of Human units by 5%. ",
+						"Never gets blown away. ",
+						"Never gets frozen. ",
+						"Never gets knocked back. ",
+						"Never gets paralyzed. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 5%. (It will be 2.10 time when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Tribe Fortification (Human): Increases the Tribe Friendliness for Human by 10 points for each 5-star Winged Knight, and 20 points for each 6-star Winged Knight. It is applied even when Winged Knight is in Time Shop and does not exceed 400 points. (The medal buff increases as much as the Tribe Friendliness for the Knightage Hero's tribe that you revive from.)",
+						"Dash: Moves quickly (dash) to the first attack target. ",
+						"Wings of Zephyrus: Increases the efficiency of boosting game speed(x2, x3, x5) by 0.05 for each 5-star Winged Knight(0.1 for 6-star). This would be activated by Winged Knight in you current team, NOT in Time Shop. For example, if you have four 5-star Winged Knights and three 6-star Winged Knights in your current team, then the game speed(x2, x3, x5) will be x2.5, x3.5, x5.5, respectively. ",
+						"Immune to Ground: Since the body is floating slighly above the ground, it is unaffected by the vine attack of druids who attack from the ground. ",
+						"Appears near the enemies at its first appearance, and casts buff to increases the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 20%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 20%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 300,
+						"skill": "Melee units' Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 500,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Attack Speed Increased: 5%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Critical Strike Rate Increased: 1%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1200,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 100%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 300%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 1%"
+					},
+					{
+						"level": 1500,
+						"skill": "Melee units' Critical Strike Damage Increased: 1a%"
+					}
+				],
+				"equipment": []
 			},
 			{
 				"name": "Senior Winged Knight",
@@ -3521,7 +3614,121 @@
 				"tribe": "human",
 				"image": "0175",
 				"stars": 6,
-				"type": "physical"
+				"type": "physical",
+				"fullArt": "175",
+				"sex": "female",
+				"airAttack": false,
+				"cloakingDetection": true,
+				"specialUnit": 10,
+				"details": {
+					"baseAttack": 62,
+					"baseHP": 470,
+					"basePhysicalDefense": 5,
+					"baseMagicalDefense": 5,
+					"attackSpeed": 60,
+					"attackRange": 45,
+					"movementSpeed": 13.00,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [174, 175],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: Attacks multiple targets wth its long spear. ",
+						"Skill Attack: Flies to the enemy's base and then attacks multiple targets. ",
+						"Team Buff: Increases the movement speed and critical damage of Human units by 7%. ",
+						"Never gets blown away. ",
+						"Never gets frozen. ",
+						"Never gets knocked back. ",
+						"Never gets paralyzed. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 10%. (It will be 2.20 time when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Tribe Fortification (Human): Increases the Tribe Friendliness for Human by 10 points for each 5-star Winged Knight, and 20 points for each 6-star Winged Knight. It is applied even when Winged Knight is in Time Shop and does not exceed 400 points. (The medal buff increases as much as the Tribe Friendliness for the Knightage Hero's tribe that you revive from.)",
+						"Dash: Moves quickly (dash) to the first attack target. ",
+						"Wings of Zephyrus: Increases the efficiency of boosting game speed(x2, x3, x5) by 0.05 for each 5-star Winged Knight(0.1 for 6-star). This would be activated by Winged Knight in you current team, NOT in Time Shop. For example, if you have four 5-star Winged Knights and three 6-star Winged Knights in your current team, then the game speed(x2, x3, x5) will be x2.5, x3.5, x5.5, respectively. ",
+						"Immune to Ground: Since the body is floating slighly above the ground, it is unaffected by the vine attack of druids who attack from the ground. ",
+						"Appears near the enemies at its first appearance, and casts buff to increases the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 50%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 50%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 80%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 300,
+						"skill": "Melee units' Critical Strike Damage Increased: 100%"
+					},
+					{
+						"level": 500,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 700,
+						"skill": "Own Attack Speed Increased: 10%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Critical Strike Rate Increased: 2%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1200,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 200%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 600%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 2%"
+					},
+					{
+						"level": 1500,
+						"skill": "Melee units' Critical Strike Damage Increased: 2a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1700,
+						"skill": "All units' Attack Distance Increased: 2%"
+					},
+					{
+						"level": 1800,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 920a%"
+					},
+					{
+						"level": 1900,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 1.3b%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 5.9b%"
+					}
+				],
+				"equipment": []
+				
 			},
 			{
 				"name": "Musketress",
