@@ -83,6 +83,7 @@
 			"\t\t\"skill\": ${35:ske}",
 			"\t}",
 			"],",
+			"\"transMaterial\": ${36:null},",
 			"\"equipment\": []",
 		],
 		"description": "Unit Template"

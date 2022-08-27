@@ -71,6 +71,7 @@
 						"skill": "Own HP Increased: 100%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -160,6 +161,11 @@
 						"skill": "One's(Own) Tribue's HP Increased: 2a%"
 					}
 				],
+				"transMaterial": [
+					[22, 1, 61],
+					[22, 42, 1, 41, 61],
+					[22, 42, 2, 1, 61]
+				],
 				"equipment": []
 			},
 			{
@@ -236,6 +242,7 @@
 						"skill": "Own HP Increased: 200%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -329,6 +336,11 @@
 						"skill": "Melee units' Defense Power Increased: 2a%"
 					}
 				],
+				"transMaterial": [
+					[24, 42, 3],
+					[24, 44, 42, 3, 61],
+					[24, 44, 4, 42, 3]
+				],
 				"equipment": []
 			},
 			{
@@ -410,6 +422,7 @@
 						"skill": "Own Attack Power Increased: 100%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -508,6 +521,11 @@
 						"skill": "Ranged units' Critical Strike Damage Increased: 3a%"
 					}
 				],
+				"transMaterial": [
+					[36, 7, 42],
+					[28, 48, 44, 9, 42],
+					[6, 30, 50, 44, 7]
+				],
 				"equipment": []
 			},
 			{
@@ -588,6 +606,7 @@
 						"skill": "Ranged units' Attack Power Increased: 20%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -685,6 +704,11 @@
 						"skill": "Own's(Own) Tribe's Attack Power Increased: 2.5a%"
 					}
 				],
+				"transMaterial": [
+					[28, 7, 42],
+					[30, 50, 44, 7, 42],
+					[8, 26, 46, 44, 7]
+				],
 				"equipment": []
 			},
 			{
@@ -767,6 +791,7 @@
 						"skill": "Melee units' Attack Power Increased: 20%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -853,6 +878,11 @@
 						"skill": "Melee units' Attack Power Increased: 300%"
 					}
 				],
+				"transMaterial": [
+					[30, 9, 42],
+					[26, 46, 44, 9, 42],
+					[10, 28, 48, 44, 9]
+				],
 				"equipment": []
 			},
 			{
@@ -937,6 +967,7 @@
 						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 50%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -1038,6 +1069,11 @@
 						"skill": "Melee units' Critical Strike Damage Increased: 4.5a%"
 					}
 				],
+				"transMaterial": [
+					[32, 11, 44],
+					[32, 52, 46, 11, 44],
+					[12, 32, 50, 48, 11]
+				],
 				"equipment": []
 			},
 			{
@@ -1130,6 +1166,7 @@
 						"skill": "All units' HP Increased: 10a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -1243,6 +1280,11 @@
 						"skill": "One's(Own) Tribe's Attack Power Increased: 4b%"
 					}
 				],
+				"transMaterial": [
+					[38, 13, 48],
+					[36, 58, 52, 13, 50],
+					[14, 34, 54, 52, 13]
+				],
 				"equipment": []
 			},
 			{
@@ -1331,6 +1373,7 @@
 						"skill": "One's(Own) Tribe's Attack Power Increased: 1.5a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -1441,6 +1484,11 @@
 						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 2.2b%"
 					}
 				],
+				"transMaterial": [
+					[36, 15, 50],
+					[34, 56, 52, 15, 46],
+					[16, 38, 58, 52, 15]
+				],
 				"equipment": []
 			},
 			{
@@ -1529,6 +1577,7 @@
 						"skill": "Ranged units' Critical Strike Damage Increased: 2a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -1638,6 +1687,11 @@
 						"skill": "Ranged units' Attack Power Increased: 3.4b%"
 					}
 				],
+				"transMaterial": [
+					[34, 17, 46],
+					[38, 54, 52, 17, 46],
+					[18, 36, 56, 52, 17]
+				],
 				"equipment": []
 			},
 			{
@@ -1728,6 +1782,7 @@
 						"skill": "One's(Own) Tribe's HP Increased: 10a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -1839,6 +1894,11 @@
 						"skill": "One's(Own) Tribe's HP Increased: 24b%"
 					}
 				],
+				"transMaterial": [
+					[36, 18, 48],
+					[34, 54, 14, 52, 46],
+					[16, 38, 58, 52, 12]
+				],
 				"equipment": []
 			},
 			{
@@ -1931,6 +1991,7 @@
 						"skill": "Quest Gold Increased: 2a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -2044,6 +2105,11 @@
 						"skill": "Quest Gold Increased: 900a%"
 					}
 				],
+				"transMaterial": [
+					[36, 16, 48],
+					[38, 56, 18, 52, 50],
+					[14, 34, 58, 52, 12]
+				],
 				"equipment": []
 			},
 			{
@@ -2137,6 +2203,7 @@
 						"skill": "One's(Own) Tribe's Attack Power Increased: 2a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -2251,6 +2318,11 @@
 						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 3.3ba%"
 					}
 				],
+				"transMaterial": [
+					[38, 14, 46],
+					[34, 58, 16, 52, 48],
+					[18, 36, 54, 52, 12]
+				],
 				"equipment": []
 			},
 			{
@@ -2342,6 +2414,7 @@
 						"skill": "One's(Own) Tribe's Attack Power Increased: 2.2a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -2454,6 +2527,11 @@
 						"skill": "One's(Own) Tribe's Attack Power Increased: 4.1b%"
 					}
 				],
+				"transMaterial": [
+					[34, 18, 50],
+					[38, 54, 14, 52, 46],
+					[16, 36, 56, 52, 12]
+				],
 				"equipment": []
 			},
 			{
@@ -2547,6 +2625,7 @@
 						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 2.6a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -2661,6 +2740,11 @@
 						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 2.2b%"
 					}
 				],
+				"transMaterial": [
+					[36, 16, 48],
+					[34, 56, 18, 52, 50],
+					[14, 38, 58, 52, 12]
+				],
 				"equipment": []
 			},
 			{
@@ -2754,6 +2838,7 @@
 						"skill": "Ranged units' Critical Strike Damage Increased: 2.3a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -2868,6 +2953,11 @@
 						"skill": "One's(Own) Tribe's Attack Power Increased: 4.3b%"
 					}
 				],
+				"transMaterial": [
+					[38, 14, 46],
+					[36, 58, 16, 52, 48],
+					[14, 34, 54, 52, 12]
+				],
 				"equipment": []
 			},
 			{
@@ -2962,6 +3052,7 @@
 						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 2.6a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -3077,6 +3168,11 @@
 						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 4.b%"
 					}
 				],
+				"transMaterial": [
+					[34, 14, 50],
+					[36, 56, 18, 52, 46],
+					[16, 38, 58, 52, 12]
+				],
 				"equipment": []
 			},
 			{
@@ -3173,6 +3269,7 @@
 						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 2.6a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -3290,6 +3387,11 @@
 						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 4.9b%"
 					}
 				],
+				"transMaterial": [
+					[36, 18, 46],
+					[34, 54, 14, 52, 50],
+					[16, 38, 58, 52, 12]
+				],
 				"equipment": []
 			},
 			{
@@ -3386,6 +3488,7 @@
 						"skill": "One's(Own) Tribe's Attack Power Increased: 3a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -3505,6 +3608,11 @@
 						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 5.2b%"
 					}
 				],
+				"transMaterial": [
+					[38, 16, 48],
+					[36, 58, 18, 52, 46],
+					[14, 34, 56, 52, 12]
+				],
 				"equipment": []
 			},
 			{
@@ -3606,6 +3714,7 @@
 						"skill": "Melee units' Critical Strike Damage Increased: 1a%"
 					}
 				],
+				"transMaterial": null,
 				"equipment": []
 			},
 			{
@@ -3727,8 +3836,12 @@
 						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 5.9b%"
 					}
 				],
+				"transMaterial": [
+					[34, 18, 50],
+					[38, 56, 16, 52, 48],
+					[14, 36, 54, 52, 12]
+				],
 				"equipment": []
-				
 			},
 			{
 				"name": "Musketress",
