@@ -4058,7 +4058,11 @@
 				    	"skill": "One's(Own) Tirbe's Critical Strike Damage Increased: 7.2b%"
 				    }
 				],
-				"transMaterial": null,
+				"transMaterial": [
+					[36, 14, 46],
+					[34, 54, 18, 52, 50],
+					[16, 38, 56, 52, 12]
+				],
 				"equipment": []
 			},
 			{
