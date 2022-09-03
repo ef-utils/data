@@ -3849,7 +3849,97 @@
 				"tribe": "human",
 				"image": "0182",
 				"stars": 5,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "183",
+				"sex": "female",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 11,
+				"details": {
+					"baseAttack": 36,
+					"baseHP": 210,
+					"basePhysicalDefense": 2.4,
+					"baseMagicalDefense": 2.4,
+					"attackSpeed": 60,
+					"attackRange": 314,
+					"movementSpeed": 13.00,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [182, 183],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Fires special bullet that attack up to 3 enemies, which stun them. ",
+						"Skill Attack: Fires a penetrating bullet that damages an enemy in front and pushes the enemy back. ",
+						"Team Buff: Increase the critical attack damage and the movement speed of human units by 5%. ",
+						"Never gets blown away. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 5%. (It will be 2.10 times when douible speed is applied.)"
+					],
+					"specialAbility": [
+						"Human Token: Increases the human tribe friendliness that is gained from human unit seals by 5% for each 5-star Musketress, and 10% for each 6-star Musketress. It is applied even when Musketress is in Time Shop and does not exceed 100%. ",
+						"Immune to Ground: Since the body is floating slightly above the ground, it is unaffected by the vine attack of druids who attack from the ground. ",
+						"Appears near the enemeies at its first appearance, and casts a buff to increase the its own movement speed and attack speed. ",
+						"There is a 20% chance that when it dies, an airboard is fired towards the enemy base which explodes and deals damage equal to 100 times its normal attack to the enemy base and the boss. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 20%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's HP Increased: 50%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Attack Speed Increased: 5%"
+					},
+					{
+						"level": 500,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 100%"
+					},
+					{
+						"level": 900,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 100%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1200,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 1%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 500%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 3a%"
+					}
+				],
+				"transMaterial": null,
+				"equipment": []
 			},
 			{
 				"name": "Senior Musketress",
@@ -3857,7 +3947,119 @@
 				"tribe": "human",
 				"image": "0183",
 				"stars": 6,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "183",
+				"sex": "female",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 11,
+				"details": {
+				    "baseAttack": 70,
+				    "baseHP": 400,
+				    "basePhysicalDefense": 5,
+				    "baseMagicalDefense": 4,
+				    "attackSpeed": 60,
+				    "attackRange": 314,
+				    "movementSpeed": 13.00,
+				    "criticalRate": 20,
+				    "criticalDamage": 50.0,
+				    "respawnTime": 150,
+				    "evolutions": [182, 183],
+				    "pet": 0,
+				    "battle": [
+				        "Normal Attack: Fires speciail bullets that attack up to 3 enemies, which stun them. ",
+				        "Skill Attack: Fires a penetrating bullet that damages an enemy in front and pushes the enemy back. ",
+                        "Team Buff: Increases the critical attack damage and the movement speed of human units by 7%. ",
+                        "Never gets blown awan. ",
+                        "Never gets knocked back. ",
+                        "Never gets paralyzed", 
+                        "Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+                        "Increases the game speed: Increases game speed by 10%. (It will be 2.20 time when double speed is applied.)"
+				    ],
+                    "specialAbility": [
+                        "Human Token: Increases the human tribe friendliness that is gained froom human unit seals by 5% for each 5-star Musketress, and 10% for each 6-star Musketress. It is applied even whn Musketress is in Time Shop and does not exceed 100%. ",
+                        "Immune to Ground: Since the body is floating slightly above the ground, it is unaffected by the vine attack of druids who attack from the ground. ",
+                        "Appears near the enemies at its first appearance, and casts buff to increases the its own movement speed and attack speed. ",
+                        "There is a 30% chance that when it dies, an airboard is fired towards the enemy base which explodes and deals damage equal to 100 times its normal attack to the enemy base and the boss. "
+                    ],
+				    "tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attack. (Immune to knock-back)"
+				},
+				"skills": [
+				    {
+				        "level": 25,
+				        "skill": "One's(Own) Tribe's Attack Power Increased: 50%"
+				    },
+                    {
+				        "level": 50,
+				        "skill": "One's(Own) Tribe's HP Increased: 100%"
+				    },
+				    {
+				        "level": 100,
+				        "skill": "One's(Own) Tribe's Critical Strike Damage Increased: 90%"
+				    },
+				    {
+				        "level": 200,
+				        "skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+				    },
+				    {
+				        "level": 300,
+				        "skill": "Own Attack Speed Increased: 10%"
+				    },
+				    {
+				        "level": 500,
+				        "skill": "One's(Own) Tribe's Moving SPeed Increased: 3%"
+				    },
+				    {
+				        "level": 700,
+				        "skill": "One's(Own) Tribe's Attack Power Increased: 200%"
+				    },
+				    {
+				        "level": 900,
+				        "skill": "One's(Own) Tribe's Critical Strike Damage Increased: 200%"
+				    },
+				    {
+				        "level": 1100,
+				        "skill": "All units' Attack Distance Increased: 1%"
+				    },
+				    {
+				        "level": 1200,
+				        "skill": "One's(Own) Tribe's Critical Strike Rate Increased: 2%"
+				    },
+				    {
+				        "level": 1300,
+				        "skill": "One's(Own) Tribe's Attack Speed Increased: 2%"
+				    },
+				    {
+				        "level": 1400,
+				        "skill": "One's(Own) Trieb's Critical Strike Damage Increased: 1a%"
+				    },
+				    {
+				        "level": 1500,
+				        "skill": "One's(Own) Tribe's Attack Power Increased: 6a%"
+				    },
+				    {
+				    	"level": 1600,
+				    	"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 30a%"
+				    },
+				    {
+				    	"level": 1700,
+				    	"skill": "One's(Own) Tribe's Attack Power Increased: 600a%"
+				    },
+				    {
+				    	"level": 1800,
+				    	"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 800a%"
+				    },
+				    {
+				    	"level": 1900,
+				    	"skill": "One's(Own) Tribe's Attack Power Increased: 1.6b%"
+				    },
+				    {
+				    	"level": 2000,
+				    	"skill": "One's(Own) Tirbe's Critical Strike Damage Increased: 7.2b%"
+				    }
+				],
+				"transMaterial": null,
+				"equipment": []
 			},
 			{
 				"name": "Crimson Hawk Rider",
