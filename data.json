@@ -4071,7 +4071,95 @@
 				"tribe": "human",
 				"image": "0190",
 				"stars": 5,
-				"type": "physical"
+				"type": "physical",
+				"fullArt": "191",
+				"sex": "female",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 12,
+				"details": {
+					"baseAttack": 38,
+					"baseHP": 234,
+					"basePhysicalDefense": 2.4,
+					"baseMagicalDefense": 2.6,
+					"attackSpeed": 60,
+					"attackRange": 314,
+					"movementSpeed": 13.00,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [190, 191],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Fires multiple arrows, attacking multiple enemies. Only attacks units that can attack air units. ",
+						"Skill Attack: Fires multiple fire arrows that deal damage and burn enemies. Enemies affected by burn take additional damage for a certain duration. ",
+						"Team Buff: Increases human unit movement speed by 5% and attack range by 3%. ",
+						"Never gets blown away. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 4%. (It will be 2.08 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Suprise Attack: Has a slight chance that the Crimson Hawk Rider flies quickly towards the enemy base. Chance increases by 3% for each 5-star Crimson Hawk Rider and 5% for each 6-star Crimson Hawk Rider. Chance to engage in Surprise Attack cannot exceed a total of 30%. ",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's HP Increased: 30%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 20%"
+					},
+					{
+						"level": 300,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Moving Speed Increased: 1%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 50%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 1%"
+					},
+					{
+						"level": 1200,
+						"skill": "One's(Own) Tribe's Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 400%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 1%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 2.5a%"
+					}
+				],
+				"transMaterial": null,
+				"equipment": []
 			},
 			{
 				"name": "Senior Crimson Hawk Rider",
@@ -4079,7 +4167,122 @@
 				"tribe": "human",
 				"image": "0191",
 				"stars": 6,
-				"type": "physical"
+				"type": "physical",
+				"fullArt": "191",
+				"sex": "female",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 12,
+				"details": {
+					"baseAttack": 74,
+					"baseHP": 410,
+					"basePhysicalDefense": 4,
+					"baseMagicalDefense": 6,
+					"attackSpeed": 60,
+					"attackRange": 314,
+					"movementSpeed": 13.00,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [190, 191],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: Fires multiple arrows, attacking multiple enemies. Only attacks units that can attack air units. ",
+						"Skill Attack: Fires multiple fire arrows that deal damage and burn enemies. Enemies affected by burn takes additonal damage for a certain duration. ",
+						"Team Buff: Increases human unit movement speed by 7% and attack range by 6%",
+						"Never gets stunned. ",
+						"Never gets blown away. ",
+						"Never gets knocked back. ",
+						"Never gets paralyzed. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 8%. (It will be 2.16 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Surprise Attack: Has a slgiht chance that the Crimson Hawk Rider flies quickly towards the enemy base. Chance increases by 3% for reach 5-star Crimson Hawk Rider and 5% for each 6-star Crimson Hawk Rider. Chance to engage in Surprise Attack cannot exceed a total of 30%. ",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's HP Increased: 80%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 90%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 50%"
+					},
+					{
+						"level": 300,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Moving Speed Increased: 2%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 100%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Attack Distance Increased: 2%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 2%"
+					},
+					{
+						"level": 1200,
+						"skill": "All units' Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 800%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 2%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 5a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 50a%"
+					},
+					{
+						"level": 1700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 500a%"
+					},
+					{
+						"level": 1800,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1.3b%"
+					},
+					{
+						"level": 1900,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 1.8b%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 8.6b%"
+					}
+				],
+				"transMaterial": [
+					[38, 16, 48],
+					[36, 58, 14, 52, 46],
+					[18, 34, 54, 52, 12]
+				],
+				"equipment": []
 			},
 			{
 				"name": "Paladin",
