@@ -3879,7 +3879,7 @@
 					"specialAbility": [
 						"Human Token: Increases the human tribe friendliness that is gained from human unit seals by 5% for each 5-star Musketress, and 10% for each 6-star Musketress. It is applied even when Musketress is in Time Shop and does not exceed 100%. ",
 						"Immune to Ground: Since the body is floating slightly above the ground, it is unaffected by the vine attack of druids who attack from the ground. ",
-						"Appears near the enemeies at its first appearance, and casts a buff to increase the its own movement speed and attack speed. ",
+						"Appears near the enemies at its first appearance, and casts a buff to increase the its own movement speed and attack speed. ",
 						"There is a 20% chance that when it dies, an airboard is fired towards the enemy base which explodes and deals damage equal to 100 times its normal attack to the enemy base and the boss. "
 					],
 					"tribeSkill": "None (only evolved units can have tribe skills)"
@@ -4290,7 +4290,95 @@
 				"tribe": "human",
 				"image": "0198",
 				"stars": 5,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "199",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": true,
+				"specialUnit": 13,
+				"details": {
+					"baseAttack": 34,
+					"baseHP": 256,
+					"basePhysicalDefense": 2.4,
+					"baseMagicalDefense": 2.6,
+					"attackSpeed": 60,
+					"attackRange": 306,
+					"movementSpeed": 12.20,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [198, 199],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Throws multiple hammers that attack and stun enemies. ",
+						"Skill Attack: A giant hammer drops from the sky, blowing away enemies and damaging them. Additionally, there is a certain chance a deadly ally will be ressurected with 40% of its HP. (However, in Raid and Outland Battle, only heroes will be resurrected and not the soldiers brought by the heroes.)",
+						"Team Buff: Increases human unit movement speed by 5% and attack range by 3%. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 6%. (It will be 2.12 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Spirit Awakening 2: Maximum level cap of all units are increased by 5. ([Spirit Awakening 2] is stackable, but the increased lavel cap cannot exceed +50. Can also be activated in the Time Shop.)",
+						"Offline Limit Break: Increase the maximum stage of offline march by 0.2% for every 5-star unit and 0.4% for every 6-star unit. (Offline Limit Break is applied even when the units are in Time Shop, but cannot exceed the maximum of 4%.)",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 20%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's HP Increased: 50%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 300,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Attack Distance Increased: 1%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's HP Increased: 50%"
+					},
+					{
+						"level": 900,
+						"skill": "One's(Own) Tribe's Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 1%"
+					},
+					{
+						"level": 1200,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 300%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 600%"
+					},
+					{
+						"level": 1500,
+						"skill": "Ranged units' Critical Strike Damage Increased: 1a%"
+					}
+				],
+				"transMaterial": null,
+				"equipment": []
 			},
 			{
 				"name": "Senior Paladin",
@@ -4298,7 +4386,123 @@
 				"tribe": "human",
 				"image": "0199",
 				"stars": 6,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "199",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": true,
+				"specialUnit": 13,
+				"details": {
+					"baseAttack": 71,
+					"baseHP": 406,
+					"basePhysicalDefense": 4,
+					"baseMagicalDefense": 6,
+					"attackSpeed": 60,
+					"attackRange": 306,
+					"movementSpeed": 12.20,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [198, 199],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: Throws multiple hammers that attack and stun enemies. ",
+						"Skill Attack: A giant hammer drops from the sky, blowing away enemies and damaging them. Additionally, there is a certain chance a deadly ally will be ressurected with 70% of its HP. (However, in Raid and Outland Battle, only heroes will be resurrected and not the soldiers brought by the heroes.)",
+						"Team Buff: Increases human unit movement speed by 7% and attack range by 6%. ",
+						"Never gets stunned. ",
+						"Never gets frozen. ",
+						"Never gets knocked back",
+						"Never gets disturbed by enemy attacks. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 11%. (It will be 2.22 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Spirit Awakening 2: Maximum level cap of all units are increased by 10. ([Spirit Awakening 2] is stackable, but the increased lavel cap cannot exceed +50. Can also be activated in the Time Shop.)",
+						"Offline Limit Break: Increase the maximum stage of offline march by 0.2% for every 5-star unit and 0.4% for every 6-star unit. (Offline Limit Break is applied even when the units are in Time Shop, but cannot exceed the maximum of 4%.)",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 50%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's HP Increased: 100%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 300,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Attack Distance Increased: 2%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's HP Increased: 100%"
+					},
+					{
+						"level": 900,
+						"skill": "All units' Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 2%"
+					},
+					{
+						"level": 1200,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 2%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 600%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1.1a%"
+					},
+					{
+						"level": 1500,
+						"skill": "Ranged units' Critical Strike Damage Increased: 2a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 30a%"
+					},
+					{
+						"level": 1700,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 600a%"
+					},
+					{
+						"level": 1800,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 1.4b%"
+					},
+					{
+						"level": 1900,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1.9b%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 9.3b%"
+					}
+				],
+				"transMaterial": [
+					[34, 18, 46],
+					[38, 54, 14, 52, 50],
+					[16, 36, 56, 52, 12]
+				],
+				"equipment": []
 			},
 			{
 				"name": "Sindbad",
