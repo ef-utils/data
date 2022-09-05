@@ -4736,7 +4736,95 @@
 				"tribe": "human",
 				"image": "0214",
 				"stars": 5,
-				"type": "physical"
+				"type": "physical",
+				"fullArt": "215",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 15,
+				"details": {
+					"baseAttack": 37,
+					"baseHP": 209,
+					"basePhysicalDefense": 2.5,
+					"baseMagicalDefense": 2.4,
+					"attackSpeed": 60,
+					"attackRange": 308,
+					"movementSpeed": 12.20,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [214, 215],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Throws a fire spell that hits up to 2 enemies, stunning and damaging them. ",
+						"Skill Attack: Drawing upon the Salamender's latent powers, hurls a flurry of fireballs to damage and paralyze the enemy. ",
+						"Team Buff: Increases human unit movement speed by 5% and attack range by 3%. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 5%. (It will be 2.10 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Raging Dash: Increases the maximum value opf the game speed buff. 0.5% for each 5-star, 1% for each 6-star. However, it cannot exceed 10%. (Effects are not applied in Time Shop.)",
+						"Senior Instructor (Human): Increases the production speed of Human guild unit by 7% per 5-star unit, 15% per 6-star unit. Applies in Time Shop, but can not exceed 150%. ",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 20%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's HP Increased: 50%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tirbe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tirbe's Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 300,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Attack Speed Increased: 5%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's HP Increased: 50%"
+					},
+					{
+						"level": 900,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 1%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 1%"
+					},
+					{
+						"level": 1200,
+						"skill": "One's(Own) Tribe's Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "Ranged units' Critical Strike Damage Increased: 300%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 600%"
+					},
+					{
+						"level": 1500,
+						"skill": "Ranged units' Critical Strike Damage Increased: 1a%"
+					}
+				],
+				"transMaterial": null,
+				"equipment": []
 			},
 			{
 				"name": "Senior Salamander Rider",
@@ -4744,7 +4832,123 @@
 				"tribe": "human",
 				"image": "0215",
 				"stars": 6,
-				"type": "physical"
+				"type": "physical",
+				"fullArt": "215",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 15,
+				"details": {
+					"baseAttack": 65,
+					"baseHP": 435,
+					"basePhysicalDefense": 6,
+					"baseMagicalDefense": 4,
+					"attackSpeed": 60,
+					"attackRange": 308,
+					"movementSpeed": 12.20,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [214, 215],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: Throws a fire spell that hits up to 2 enemies, stunning and damaging them. ",
+						"Skill Attack: Drawing upon the Salamender's latent powers, hurls a flurry of fireballs to damage and paralyze the enemy. ",
+						"Team Buff: Increases human unit movement speed by 7% and attack range by 6%. ",
+						"Never gets stunned. ",
+						"Never gets knocked back. ",
+						"Never gets disturbed by enemy attacks. ",
+						"Never gets paralyzed. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 10%. (It will be 2.20 time when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Raging Dash: Increases the maximum value opf the game speed buff. 0.5% for each 5-star, 1% for each 6-star. However, it cannot exceed 10%. (Effects are not applied in Time Shop.)",
+						"Senior Instructor (Human): Increases the production speed of Human guild unit by 7% per 5-star unit, 15% per 6-star unit. Applies in Time Shop, but can not exceed 150%. ",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 50%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's HP Increased: 100%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 70%"
+					},
+					{
+						"level": 300,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Attack Speed Increased: 10%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's HP Increased: 100%"
+					},
+					{
+						"level": 900,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 2%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 2%"
+					},
+					{
+						"level": 1200,
+						"skill": "All units' Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "Ranged units' Critical Strike Damage Increased: 600%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1.1a%"
+					},
+					{
+						"level": 1500,
+						"skill": "Ranged units' Critical Strike Damage Increased: 2a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 30a%"
+					},
+					{
+						"level": 1700,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 600a%"
+					},
+					{
+						"level": 1800,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 1.4b%"
+					},
+					{
+						"level": 1900,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 2.7b%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 12.2b%"
+					}
+				],
+				"transMaterial": [
+					[38, 16, 50],
+					[36, 54, 18, 52, 48],
+					[16, 36, 56, 52, 12]
+				],
+				"equipment": []
 			},
 			{
 				"name": "Fire Ranger",
