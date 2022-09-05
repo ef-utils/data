@@ -4510,7 +4510,98 @@
 				"tribe": "human",
 				"image": "0206",
 				"stars": 5,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "207",
+				"sex": "male",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 14,
+				"details": {
+					"baseAttack": 36,
+					"baseHP": 183,
+					"basePhysicalDefense": 2.5,
+					"baseMagicalDefense": 2.8,
+					"attackSpeed": 60,
+					"attackRange": 45,
+					"movementSpeed": 13.00,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [206, 207],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Swiftly swings his sword, unleashing 6 consecutive attacks. Creates a sand storm when attacking, dealing damage to multiple enemies and knocking them back. ",
+						"Skill Attack: Hurls a pile of rough desert sand at multiple enemies, dealing damage with a certain chance of blinding them. Blinded enemies cannot attack temporarily. (If stealth is deactivated, the skill is immediately cast.)",
+						"Team Buff: Increases human unit movement speed by 3% and attack range by 4%. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 5%. (It will be 2.19 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Innervate 3: Decreases cooldown of Guild Invasion by 1%. (Innervate 3 can be stacked, but cannot exceed 40%. Also applied when units are in Time Shop.)",
+						"Battle Cry(Human): Increases the attack, defense, and HP of human units in Guild Invasion. Increases the efficiency by 1% for every 5-star Sindbad and 2.5% for every 6-star Sindbad. Applied in time shop and effects can increase up to 30%. ",
+						"Cloak(Invisible): Cloaks itself to stealthly infiltrate the enemy base to destroy it. ",
+						"Dash: Moves quickly (dash) to the first attack target. ",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. ",
+						"Chance to instantly cast abilities when taking damage. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's HP Increased: 30%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 20%"
+					},
+					{
+						"level": 300,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Moving Speed Increased: 1%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 50%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 1%"
+					},
+					{
+						"level": 1200,
+						"skill": "One's(Own) Tribe's Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 400%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 1%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 2.5a%"
+					}
+				],
+				"transMaterial": null,
+				"equipment": []
 			},
 			{
 				"name": "Senior Sindbad",
@@ -4518,7 +4609,126 @@
 				"tribe": "human",
 				"image": "0207",
 				"stars": 6,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "207",
+				"sex": "male",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 14,
+				"details": {
+					"baseAttack": 68,
+					"baseHP": 351,
+					"basePhysicalDefense": 4,
+					"baseMagicalDefense": 6,
+					"attackSpeed": 60,
+					"attackRange": 45,
+					"movementSpeed": 13.00,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [206, 207],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: Swiftly swings his sword, unleashing 8 consecutive attacks. Creates a sand storm when attacking, dealing damage to multiple enemies and knocking them back. ",
+						"Skill Attack: Hurls a pile of rough desert sand at multiple enemies, dealing damage with a certain chance of blinding them. Blinded enemies cannot attack temporarily. (If stealth is deactivated, the skill is immediately cast.)",
+						"Team Buff: Increases human unit movement speed by 6% and attack range by 7%. ",
+						"Never gets blown away. ",
+						"Never gets frozen. ",
+						"Never gets knocked back. ",
+						"Never gets paralyzed. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 11%. (It will be 2.22 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Innervate 3: Decreases cooldown of Guild Invasion by 3%. (Innervate 3 can be stacked, but cannot exceed 40%. Also applied when units are in Time Shop.)",
+						"Battle Cry(Human): Increases the attack, defense, and HP of human units in Guild Invasion. Increases the efficiency by 1% for every 5-star Sindbad and 2.5% for every 6-star Sindbad. Applied in time shop and effects can increase up to 30%. ",
+						"Cloak(Invisible): Cloaks itself to stealthly infiltrate the enemy base to destroy it. ",
+						"Dash: Moves quickly (dash) to the first attack target. ",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. ",
+						"Chance to instantly cast abilities when taking damage. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's HP Increased: 80%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 90%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 50%"
+					},
+					{
+						"level": 300,
+						"skill": "One's(own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 500,
+						"skill": "Own Moving Speed Increased: 2%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 100%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Attack Distance Increased: 2%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 2%"
+					},
+					{
+						"level": 1200,
+						"skill": "All units' Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 800%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 2%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(own) Tribe's Critical Strike Damage Increased: 5a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 50a%"
+					},
+					{
+						"level": 1700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 500a%"
+					},
+					{
+						"level": 1800,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 1.2b%"
+					},
+					{
+						"level": 1900,
+						"skill": "One's(Own) Tribe's Attack power Increased: 2.5b%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 11.2b%"
+					}
+				],
+				"transMaterial": [
+					[36, 14, 48],
+					[34, 56, 16, 52, 46],
+					[18, 38, 58, 52, 12]
+				],
+				"equipment": []
 			},
 			{
 				"name": "Salamander Rider",
