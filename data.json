@@ -3972,7 +3972,7 @@
                         "Team Buff: Increases the critical attack damage and the movement speed of human units by 7%. ",
                         "Never gets blown awan. ",
                         "Never gets knocked back. ",
-                        "Never gets paralyzed", 
+                        "Never gets paralyzed. ", 
                         "Never gets disturbed by the terrain of Stage 10,000 or higher. ",
                         "Increases the game speed: Increases game speed by 10%. (It will be 2.20 time when double speed is applied.)"
 				    ],
@@ -4411,7 +4411,7 @@
 						"Team Buff: Increases human unit movement speed by 7% and attack range by 6%. ",
 						"Never gets stunned. ",
 						"Never gets frozen. ",
-						"Never gets knocked back",
+						"Never gets knocked back. ",
 						"Never gets disturbed by enemy attacks. ",
 						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
 						"Increase the game speed: Increases game speed by 11%. (It will be 2.22 times when double speed is applied.)"
@@ -4956,7 +4956,95 @@
 				"tribe": "human",
 				"image": "0222",
 				"stars": 5,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "223",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 16,
+				"details": {
+					"baseAttack": 20,
+					"baseHP": 202,
+					"basePhysicalDefense": 2.3,
+					"baseMagicalDefense": 2.4,
+					"attackSpeed": 60,
+					"attackRange": 316,
+					"movementSpeed": 11.60,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [222, 223],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Fires multiple exploding arrows, dealing damage to enemies. When the arrows hit an enemy under the burn effect, it creates a chain of explosions, dealing damage to surrounding enemies. ",
+						"Skill Attack: Fires a piercing fire arrow, dealing damage to enemies and inflicting burn effect. Eneemies affected by burn effect receive additional damage for a set amount of time. ",
+						"Team Buff: Increases human unit movement speed by 4% and attack range by 5%. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 6%. (It will be 2.12 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Tribe Friendliness (Human): Increases Human Tribe Friendliness. 40 for every 5-star and 80 for every 6-star. Effects are applied even when the unit is in Time Shop. The Tribe Friendliness increased by the Fire Ranger cannot exceed 1,000. ",
+						"Enhance Token (Human): Increase the Tribe Friendliness using the remaining fragments of (Human)Unit Seals that have already reached the max level. Increase Friendliness by 30 for each 5-star, 80 for each 6-star. Effects are applied even when in Time Shop. ",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's HP Increased: 30%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 20%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Moving Speed Increased: 1%"
+					},
+					{
+						"level": 500,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 50%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1200,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 400%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 1%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 2.6a%"
+					}
+				],
+				"transMaterial": null,
+				"equipment": []
 			},
 			{
 				"name": "Senior Fire Ranger",
@@ -4964,7 +5052,123 @@
 				"tribe": "human",
 				"image": "0223",
 				"stars": 6,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "223",
+				"sex": "male",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 16,
+				"details": {
+					"baseAttack": 63,
+					"baseHP": 312,
+					"basePhysicalDefense": 5,
+					"baseMagicalDefense": 5,
+					"attackSpeed": 60,
+					"attackRange": 316,
+					"movementSpeed": 11.60,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [222, 223],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: Fires multiple exploding arrows, dealing damage to enemies. When the arrows hit an enemy under the burn effect, it creates a chain of explosions, dealing damage to surrounding enemies. ",
+						"Skill Attack: Fires a piercing fire arrow, dealing damage to enemies and inflicting burn effect. Eneemies affected by burn effect receive additional damage for a set amount of time. ",
+						"Team Buff: Increases human unit movement speed by 7% and attack range by 8%. ",
+						"Never gets blown away. ",
+						"Never gets frozen. ",
+						"Never gets knocked back. ",
+						"Never gets apralyzed. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 12%. (It will be 2.34 time when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Tribe Friendliness (Human): Increases Human Tribe Friendliness. 40 for every 5-star and 80 for every 6-star. Effects are applied even when the unit is in Time Shop. The Tribe Friendliness increased by the Fire Ranger cannot exceed 1,000. ",
+						"Enhance Token (Human): Increase the Tribe Friendliness using the remaining fragments of (Human)Unit Seals that have already reached the max level. Increase Friendliness by 30 for each 5-star, 80 for each 6-star. Effects are applied even when in Time Shop. ",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's HP Increased: 80%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 90%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 50%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Moving Speed Increased: 3%"
+					},
+					{
+						"level": 500,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 100%"
+					},
+					{
+						"level": 900,
+						"skill": "Own Attack Distance Increased: 2%"
+					},
+					{
+						"level": 1100,
+						"skill": "All units' Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1200,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 2%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 800%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 2%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 5.2a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 55a%"
+					},
+					{
+						"level": 1700,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 550a%"
+					},
+					{
+						"level": 1800,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1.9b%"
+					},
+					{
+						"level": 1900,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 3b%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 13.4b%"
+					}
+				],
+				"transMaterial": [
+					[34, 18, 46],
+					[38, 58, 14, 52, 50],
+					[18, 38, 58, 52, 12]
+				],
+				"equipment": []
 			},
 			{
 				"name": "Flame Sibyl",
