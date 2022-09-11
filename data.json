@@ -5176,7 +5176,95 @@
 				"tribe": "human",
 				"image": "0230",
 				"stars": 5,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "231",
+				"sex": "female",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 17,
+				"details": {
+					"baseAttack": 29,
+					"baseHP": 266,
+					"basePhysicalDefense": 2.3,
+					"baseMagicalDefense": 2.4,
+					"attackSpeed": 60,
+					"attackRange": 316,
+					"movementSpeed": 11.60,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [230, 231],
+					"pet": null,
+					"battle": [
+						"Normal Attack: Blows flame sword aura while dancing a sword that attacks and knocked back up to 3 enemies. ",
+						"Skill Attack: Dances and causes a flame whirlwind that damages enemies on land and blows then up to the air. ",
+						"Team Buff: Increses human unit movement speed by 5% and attack range by 3%. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increse the game speed: Increases game speed by 6%. (It will be 2.12 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Weaken Crystal (Human): Upon revivng as a Human, the enemy's crystal HP on the stage battle is partly reduced. 1% for every 5-start unit and 2% for every 6 start unit. Applied even when in Time Shop, and the unit's maximum crystal HP cannot be reduced by more than 20%. ",
+						"Might of Fire: Increases stats of all soliders (Attack / Defense / HP) by 7 levels for every 5-start unit, 15 for every 6-star unit. Applies in Time Shop, but cannot exceed 150 levels. (However, [Might of Fire] is only applied in stage battles.)",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "None (only evolved units can have tribe skills)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 20%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's HP Increased: 50%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 40%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Attack Speed Increased: 5%"
+					},
+					{
+						"level": 500,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 1%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 100%"
+					},
+					{
+						"level": 900,
+						"skill": "One's(Own) Tribe's Attack DistanceIncreased: 1%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 1%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 1%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 600%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 3.1a%"
+					}
+				],
+				"transMaterial": null,
+				"equipment": []
 			},
 			{
 				"name": "Senior Flame Sibyl",
@@ -5184,7 +5272,123 @@
 				"tribe": "human",
 				"image": "0231",
 				"stars": 6,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "231",
+				"sex": "female",
+				"airAttack": false,
+				"cloakingDetection": false,
+				"specialUnit": 17,
+				"details": {
+					"baseAttack": 66,
+					"baseHP": 368,
+					"basePhysicalDefense": 5,
+					"baseMagicalDefense": 5,
+					"attackSpeed": 60,
+					"attackRange": 316,
+					"movementSpeed": 11.60,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [230, 231],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: Blows flame sword aura while dancing a sword that attacks and knocked back up to 4 enemies. ",
+						"Skill Attack: Dances and causes a flame whirlwind that damages enemies on land and blows then up to the air. ",
+						"Team Buff: Increases human unit movement speed by 8% and attack range by 7%. ",
+						"Never gets stunned. ",
+						"Never gets frozen. ",
+						"Never gets knocked back. ",
+						"Never gets disturbed by enemy attacks. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increse the game speed: Increases game speed by 11%. (It will be 2.22 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Weaken Crystal (Human): Upon revivng as a Human, the enemy's crystal HP on the stage battle is partly reduced. 1% for every 5-start unit and 2% for every 6 start unit. Applied even when in Time Shop, and the unit's maximum crystal HP cannot be reduced by more than 20%. ",
+						"Might of Fire: Increases stats of all soliders (Attack / Defense / HP) by 7 levels for every 5-start unit, 15 for every 6-star unit. Applies in Time Shop, but cannot exceed 150 levels. (However, [Might of Fire] is only applied in stage battles.)",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 25,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 50%"
+					},
+					{
+						"level": 50,
+						"skill": "One's(Own) Tribe's HP Increased: 100%"
+					},
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 90%"
+					},
+					{
+						"level": 200,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 300,
+						"skill": "Own Attack Speed Increased: 10%"
+					},
+					{
+						"level": 500,
+						"skill": "One's(Own) Tribe's Moving Speed Increased: 3%"
+					},
+					{
+						"level": 700,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 200%"
+					},
+					{
+						"level": 900,
+						"skill": "One's(Own) Tribe's Attack DistanceIncreased: 1%"
+					},
+					{
+						"level": 1100,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 2%"
+					},
+					{
+						"level": 1200,
+						"skill": "Own Attack Distance Increased: 2%"
+					},
+					{
+						"level": 1300,
+						"skill": "One's(Own) Tribe's Attack Speed Increased: 2%"
+					},
+					{
+						"level": 1400,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1.1a%"
+					},
+					{
+						"level": 1500,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 6.2a%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Critical Strike Daamge Increased: 33a%"
+					},
+					{
+						"level": 1700,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 660%"
+					},
+					{
+						"level": 1800,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 2b%"
+					},
+					{
+						"level": 1900,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 3.3b%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 15.4b%"
+					}
+				],
+				"transMaterial": [
+					[36, 14, 48],
+					[34, 56, 16, 52, 46],
+					[16, 36, 56, 52, 12]
+				],
+				"equipment": []
 			},
 			{
 				"name": "Extreme Fire Mage",
@@ -5192,7 +5396,95 @@
 				"tribe": "human",
 				"image": "0238",
 				"stars": 7,
-				"type": "magical"
+				"type": "magical",
+				"fullArt": "16",
+				"sex": "female",
+				"airAttack": true,
+				"cloakingDetection": false,
+				"specialUnit": 0,
+				"details": {
+					"baseAttack": 123.4,
+					"baseHP": 608,
+					"basePhysicalDefense": 6.6,
+					"baseMagicalDefense": 10.8,
+					"attackSpeed": 60,
+					"attackRange": 312,
+					"movementSpeed": 11.60,
+					"criticalRate": 20,
+					"criticalDamage": 50.0,
+					"respawnTime": 150,
+					"evolutions": [15, 16, 238],
+					"pet": 0,
+					"battle": [
+						"Normal Attack: Casts several fireballs that damage enemies and stun them by certain chance. ",
+						"Skill Attack: Casts several Fire Birds that damage enemies and stun them by certain chance. ",
+						"Team Buff: Increases human unit movement speed b 12% and attack range by 11%. ",
+						"Never gets blown away. ",
+						"Never gets frozen. ",
+						"Never gets knocked back. ",
+						"Never gets paralyzed. ",
+						"Never gets disturbed by the terrain of Stage 10,000 or higher. ",
+						"Increase the game speed: Increases game speed by 15%. (It will be 2.30 times when double speed is applied.)"
+					],
+					"specialAbility": [
+						"Fire Resistance: Increases Fire Resistance by 300. (Also applied in Time Shop and can be applied repeatedly.)",
+						"Appears near the enemies at its first appearance, and casts buff to increase the its own movement speed and attack speed. "
+					],
+					"tribeSkill": "Human Tribe Skill: A covenant between Human units and the Earth Spirit that grants immunity to knock-back attacks. (Immune to knock-back)"
+				},
+				"skills": [
+					{
+						"level": 100,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 1a%"
+					},
+					{
+						"level": 200,
+						"skill": "Ons'(Own) Tribe's Critical Strike Damage Increased: 2.5a%"
+					},
+					{
+						"level": 400,
+						"skill": "One's(Own) Tribe's Critical Strike Rate Increased: 4%"
+					},
+					{
+						"level": 800,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 15a%"
+					},
+					{
+						"level": 1200,
+						"skill": "All units' Attack Distance Increased: 1%"
+					},
+					{
+						"level": 1600,
+						"skill": "One's(Own) Tribe's Attack Power Increased: 2b%"
+					},
+					{
+						"level": 2000,
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 100b%"
+					},
+					{
+						"level": "2900 T1",
+						"skill": "One's(Own) Tribe's Attack Power Increased: 3.9a%"
+					},
+					{
+						"level": "4100 T2",
+						"skill": "Quest Gold Increased: 1.7a%"
+					},
+					{
+						"level": "5300 T3",
+						"skill": "One's(Own) Tribe's Critical Strike Damage Increased: 6.3a%"
+					},
+					{
+						"level": "6500 T4",
+						"skill": "One's(Own) Tribe's HP Increased: 140a%"
+					}
+				],
+				"transMaterial": [
+					[14, 36, 50],
+					[16, 38, 54, 70, 10],
+					[18, 34, 56, 12, 52],
+					[14, 36, 58, 74, 32]
+				],
+				"equipment": []
 			},
 			{
 				"name": "Extreme Gunner",
